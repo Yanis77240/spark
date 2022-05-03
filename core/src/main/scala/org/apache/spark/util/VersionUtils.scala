@@ -29,9 +29,10 @@ private[spark] object VersionUtils {
   private val majorMinorPatchRegex = """^(\d+)(?:\.(\d+)(?:\.(\d+)(?:[.-].*)?)?)?$""".r
 
   /**
-   * Whether the Hadoop version used by Spark is 3.x
+   * Whether the Hadoop version used by Spark is 3.3.x
+   * If using Hadoop < 3.3.x, lz4 codec tests will fail as detailed here https://github.com/apache/spark/pull/34064
    */
-  def isHadoop3: Boolean = majorVersion(VersionInfo.getVersion) == 3
+  def isHadoop3: Boolean = majorMinorVersion(VersionInfo.getVersion) == (3, 3)
 
   /**
    * Given a Spark version string, return the major version number.

@@ -1,0 +1,25 @@
+podTemplate {
+    node('tdp-builder') {
+        stage('Git clone') {
+            checkout([$class: 'GitSCM', branches: [[name: 'branch-3.2-TDP']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'http://gitlab.adaltas.com/dataclan/spark.git']]])
+        }
+        stage('Build') {
+            container('tdp-builder'){
+                sh '''
+                ./dev/make-distribution.sh --name tdp --tgz -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1
+                '''
+            }
+        }
+        stage('Run unit tests') {
+            container('tdp-builder') {
+                sh '''
+                export DEFAULT_ARTIFACT_REPOSITORY="file:./.m2/repository/"
+                ./build/mvn -B -Dmaven.repo.local=./.m2 test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 --fail-never
+                '''
+            }
+        }
+        stage('Publish tests results') {
+            junit '**/surefire-reports/*.xml'
+        }
+    }
+}
