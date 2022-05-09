@@ -17,6 +17,7 @@ The command generates a `.tar.gz` file of the release at `./spark-3.2.2-TDP-0.1.
 ## Testing parameters
 
 ```bash
+export MAVEN_OPTS="-Xss64m -Xmx2g -XX:ReservedCodeCacheSize=1g"
 export DEFAULT_ARTIFACT_REPOSITORY="file:$HOME/.m2/repository/"
 ./build/mvn test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 --fail-never
 ```

@@ -21,7 +21,35 @@
      <properties>
        <hadoop.version>3.1.1-TDP-0.1.0-SNAPSHOT</hadoop.version>
        <curator.version>2.12.0</curator.version>
+       <hadoop-client-api.artifact>hadoop-client</hadoop-client-api.artifact>
+       <hadoop-client-runtime.artifact>hadoop-yarn-api</hadoop-client-runtime.artifact>
+       <hadoop-client-minicluster.artifact>hadoop-client</hadoop-client-minicluster.artifact>
      </properties>
+     <dependencies>
+       <dependency>
+         <groupId>org.apache.hadoop</groupId>
+         <artifactId>hadoop-yarn-common</artifactId>
+       </dependency>
+       <dependency>
+         <groupId>org.apache.hadoop</groupId>
+         <artifactId>hadoop-yarn-server-web-proxy</artifactId>
+       </dependency>
+       <dependency>
+         <groupId>org.apache.hadoop</groupId>
+         <artifactId>hadoop-yarn-client</artifactId>
+       </dependency>
+       <dependency>
+         <groupId>org.apache.hadoop</groupId>
+         <artifactId>hadoop-yarn-server-resourcemanager</artifactId>
+         <scope>test</scope>
+       </dependency>
+       <dependency>
+         <groupId>org.apache.hadoop</groupId>
+         <artifactId>hadoop-yarn-server-tests</artifactId>
+         <classifier>tests</classifier>
+         <scope>test</scope>
+       </dependency>
+     </dependencies>
    </profile>
    ```
 
