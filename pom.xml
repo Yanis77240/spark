@@ -314,6 +314,11 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>nexus</id>
+      <name>my Nexus</name>
+      <url>http://172.19.0.2:8081/repository/my-maven-test/</url>
+    </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
@@ -342,6 +347,15 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>my Nexus</name>
+      <url>http://172.19.0.2:8081/repository/my-maven-test/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <!--
       This is a dummy dependency that is used to trigger the maven-shade plugin so that Spark's
