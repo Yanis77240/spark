@@ -7,7 +7,7 @@ pipeline {
     triggers {
         pollSCM '0 1 * * *'
       }
-        } 
+    stages{
         stage('clone') {
             steps {
                 echo "Cloning..."
