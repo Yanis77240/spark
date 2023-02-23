@@ -8,6 +8,11 @@ pipeline {
         pollSCM '0 1 * * *'
       }
     stages {
+        stage ('Invoke pipeline tdp-hive-1.2') {
+            steps {
+                build job: 'tdp-hive-1.2'
+            }
+        } 
         stage('clone') {
             steps {
                 echo "Cloning..."
