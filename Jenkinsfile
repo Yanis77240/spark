@@ -26,7 +26,7 @@ pipeline {
             steps {
                 echo "Testing..."
                 sh '''
-                ./build/mvn test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Dscalastyle.skip=true -Denforcer.skip=true --fail-never
+                ./build/mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Dscalastyle.skip=true -Denforcer.skip=true --fail-never
                 '''
             }
         }        
