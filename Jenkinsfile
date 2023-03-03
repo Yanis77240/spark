@@ -22,6 +22,14 @@ pipeline {
                 '''
             }
         }
+        stage('Test') {
+            steps {
+                echo "Testing..."
+                sh '''
+                ./build/mvn test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --fail-never
+                '''
+            }
+        }
         stage("Publish to Nexus Repository Manager") {
             steps {
                 echo "Deploy..."
