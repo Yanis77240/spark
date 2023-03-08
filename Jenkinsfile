@@ -37,7 +37,7 @@ pipeline {
             steps {
                 echo "Deploy..."
                 withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
-                    sh 'mvn deploy -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume -s settings.xml'
+                    sh 'mvn deploy -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume -DskipTests -s settings.xml'
                 }
             }        
         }
