@@ -26,8 +26,8 @@ podTemplate(containers: [
                 echo "Testing..."
                 sh '''
                 ./build/mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --fail-never
-                '''*/
-            }
+                '''
+            }*/
             stage('Deliver') {
                 echo "Deploy..."
                 withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
