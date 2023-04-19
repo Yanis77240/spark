@@ -230,7 +230,7 @@
     <!-- Repository properties -->
     <distMgmtSnapshotsId>nexus</distMgmtSnapshotsId>
     <distMgmtSnapshotsName>my Nexus</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>http://10.110.4.212:8081/repository/my-maven-test/</distMgmtSnapshotsUrl>
+    <distMgmtSnapshotsUrl>http://192.168.0.194:8081/repository/my-maven-test/</distMgmtSnapshotsUrl>
   </properties>
   <repositories>
     <repository>
