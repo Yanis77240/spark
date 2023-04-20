@@ -283,6 +283,10 @@
     <CodeCacheSize>128m</CodeCacheSize>
     <!-- Needed for consistent times -->
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss z</maven.build.timestamp.format>
+    <!-- Repository properties -->
+    <distMgmtSnapshotsId>nexus</distMgmtSnapshotsId>
+    <distMgmtSnapshotsName>my Nexus</distMgmtSnapshotsName>
+    <distMgmtSnapshotsUrl>http://10.110.4.212:8081/repository/my-maven-test/</distMgmtSnapshotsUrl>
   </properties>
   <repositories>
     <repository>
@@ -315,9 +319,9 @@
       </snapshots>
     </repository>
     <repository>
-      <id>nexus</id>
-      <name>my Nexus</name>
-      <url>http://172.19.0.2:8081/repository/my-maven-test/</url>
+      <id>${distMgmtSnapshotsId}</id>
+      <name>${distMgmtSnapshotsName}</name>
+      <url>${distMgmtSnapshotsUrl}</url>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -350,9 +354,9 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>nexus</id>
-      <name>my Nexus</name>
-      <url>http://172.19.0.2:8081/repository/my-maven-test/</url>
+      <id>${distMgmtSnapshotsId}</id>
+      <name>${distMgmtSnapshotsName}</name>
+      <url>${distMgmtSnapshotsUrl}</url>
     </snapshotRepository>
   </distributionManagement>
 
