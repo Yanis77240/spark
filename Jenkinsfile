@@ -1,7 +1,7 @@
 podTemplate(containers: [
     containerTemplate(
         name: 'tdp-builder', 
-        image: 'yanisbariteau/tdp-builder:jenkins', 
+        image: 'stbaum/jenkins:latest', 
         command: 'sleep', 
         args: '30d'
         )
