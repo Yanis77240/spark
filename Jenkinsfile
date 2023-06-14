@@ -36,8 +36,10 @@ podTemplate(containers: [
             }
             stage("Publish tar.gz to Nexus") {
                 echo "Publish tar.gz..."
-                withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
-                    sh 'curl -v -u $user:$pass --upload-file spark-3.2.2-TDP-0.1.0-SNAPSHOT-bin-tdp.tgz http://10.110.4.212:8081/repository/maven-tar-files/spark-3.2/spark-3.2.2-TDP-0.1.0-SNAPSHOT-bin-${number}.tar.gz'
+                withEnv(["number=${currentBuild.number}"]) {
+                    withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
+                        sh 'curl -v -u $user:$pass --upload-file spark-3.2.2-TDP-0.1.0-SNAPSHOT-bin-tdp.tgz http://10.110.4.212:8081/repository/maven-tar-files/spark-3.2/spark-3.2.2-TDP-0.1.0-SNAPSHOT-bin-${number}.tar.gz'
+                    }
                 }
             }       
         }
