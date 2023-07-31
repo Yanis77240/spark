@@ -1,7 +1,9 @@
 podTemplate(containers: [
     containerTemplate(
         name: 'tdp-builder', 
-        image: 'stbaum/jenkins-mysql', 
+        image: 'stbaum/jenkins-mysql',
+        resourceLimitCpu: "3000m",
+        resourceLimitMemory: "9000Mi", 
         command: 'sleep', 
         args: '30d'
         )
