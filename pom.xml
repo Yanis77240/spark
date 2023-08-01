@@ -2187,7 +2187,6 @@
             <junitxml>.</junitxml>
             <filereports>SparkTestSuite.txt</filereports>
             <argLine>-ea -Xmx3g -Xss4m -XX:ReservedCodeCacheSize=${CodeCacheSize}</argLine>
-            <argLine>-Dscala.color=false</argLine>
             <stderr/>
             <environmentVariables>
               <!--
