@@ -28,7 +28,7 @@ podTemplate(containers: [
                 echo "Testing..."
                 withEnv(["number=${currentBuild.number}"]) {
                     withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
-                        sh 'mvn test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Dscalastyle.skip=true -Denforcer.skip=true -Dsurefire.rerunFailingTestsCount=3 --fail-never -Dstyle.color=never'
+                        sh './build/mvn test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Dsurefire.rerunFailingTestsCount=3 --fail-never -Dstyle.color=never'
                         sh 'mvn surefire-report:report-only  -Daggregate=true'
                         sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-3.2/surefire-report-${number}.html'
                     }
