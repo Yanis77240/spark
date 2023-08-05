@@ -2,8 +2,10 @@ podTemplate(containers: [
     containerTemplate(
         name: 'tdp-builder', 
         image: 'stbaum/jenkins-mysql',
+        resourceRequestCpu: "2000m",
+        resourceRequestMemory: "8000Mi",
         resourceLimitCpu: "3000m",
-        resourceLimitMemory: "10000Mi",  
+        resourceLimitMemory: "11000Mi",
         command: 'sleep', 
         args: '30d'
         )
@@ -21,6 +23,7 @@ podTemplate(containers: [
             stage ('Build') {
                 echo "Building..."
                 sh '''
+                export MAVEN_OPTS="-Xss64m -Xmx2g -XX:ReservedCodeCacheSize=1g"
                 ./dev/make-distribution.sh --name tdp --tgz -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Dscalastyle.skip=true -Denforcer.skip=true -Dstyle.color=never
                 '''
             }
@@ -28,6 +31,10 @@ podTemplate(containers: [
                 echo "Testing..."
                 withEnv(["number=${currentBuild.number}"]) {
                     withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
+                        sh '''export MAVEN_OPTS="-Xss64m -Xmx2g -XX:ReservedCodeCacheSize=1g"
+                            export DEFAULT_ARTIFACT_REPOSITORY="file:$HOME/.m2/repository/"
+                            '''
+                        sh 'mvn clean'
                         sh './build/mvn test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Dsurefire.rerunFailingTestsCount=3 --fail-never -Dstyle.color=never'
                         sh 'mvn surefire-report:report-only  -Daggregate=true'
                         sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-3.2/surefire-report-${number}.html'
