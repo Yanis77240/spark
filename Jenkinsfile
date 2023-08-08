@@ -39,17 +39,28 @@ podTemplate(containers: [
                         grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > scala-end-results.txt
                         /$
                         sh '''
-                        mysql -h 10.100.99.143 -u $user -p$pass -e "CREATE DATABASE IF NOT EXISTS SPARK2_${number};"
+                        mysql -h 10.100.99.143 -u $user -p$pass -e "CREATE DATABASE IF NOT EXISTS SPARK2;"
                         '''
                         sh'''
-                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2_${number} -e "CREATE TABLE test_list (Module VARCHAR(125), Test_Name VARCHAR(255)); LOAD DATA LOCAL INFILE 'scala-tests.txt' INTO TABLE test_list FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE test_list SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', '');"
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE test_list_${number} (Module VARCHAR(125), Test_Name VARCHAR(255)); LOAD DATA LOCAL INFILE 'scala-tests.txt' INTO TABLE test_list_${number} FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE test_list_${number} SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', '');"
                         '''
                         sh '''
-                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2_${number} -e "CREATE TABLE aborted_tests (Module VARCHAR(125), Results VARCHAR(255)); LOAD DATA LOCAL INFILE 'aborted-tests.txt' INTO TABLE aborted_tests FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE aborted_tests SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', '');"
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE aborted_tests_${number} (Module VARCHAR(125), Results VARCHAR(255)); LOAD DATA LOCAL INFILE 'aborted-tests.txt' INTO TABLE aborted_tests_${number} FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE aborted_tests_${number} SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', '');"
                         '''
                         sh '''
-                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2_${number} -e "CREATE TABLE test_resume (Module VARCHAR(125), Results VARCHAR(255)); LOAD DATA LOCAL INFILE 'scala-end-results.txt' INTO TABLE test_resume FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE test_resume SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', ''); CREATE TABLE results (SELECT Module, SUBSTRING_INDEX(Results, ',', 1) AS Succeeded,     SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 2), ',', -1) AS Failed,     SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 3), ',', -1) AS Canceled, SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 4), ',', -1) AS Ignored, SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 5), ',', -1) AS Pending  FROM test_resume); drop table test_resume; UPDATE results SET Succeeded = SUBSTRING_INDEX(Succeeded, ' ', -1), Failed = SUBSTRING_INDEX(Failed, ' ', -1), Canceled = SUBSTRING_INDEX(Canceled, ' ', -1), Ignored = SUBSTRING_INDEX(Ignored, ' ', -1), Pending = SUBSTRING_INDEX(Pending, ' ', -1);"
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE test_resume_${number} (Module VARCHAR(125), Results VARCHAR(255)); LOAD DATA LOCAL INFILE 'scala-end-results.txt' INTO TABLE test_resume_${number} FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE test_resume_${number} SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', ''); CREATE TABLE results_${number} (SELECT Module, SUBSTRING_INDEX(Results, ',', 1) AS Succeeded,     SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 2), ',', -1) AS Failed,     SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 3), ',', -1) AS Canceled, SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 4), ',', -1) AS Ignored, SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 5), ',', -1) AS Pending  FROM test_resume_${number}); drop table test_resume_${number}; UPDATE results_${number} SET Succeeded = SUBSTRING_INDEX(Succeeded, ' ', -1), Failed = SUBSTRING_INDEX(Failed, ' ', -1), Canceled = SUBSTRING_INDEX(Canceled, ' ', -1), Ignored = SUBSTRING_INDEX(Ignored, ' ', -1), Pending = SUBSTRING_INDEX(Pending, ' ', -1);"
                         '''
+                        sh '''
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "SELECT COUNT(*) INTO @table_exists FROM information_schema.tables WHERE table_name = CONCAT('test_list_', ${number - 1}); IF @table_exists > 0 THEN CREATE TABLE comparison_${number} AS SELECT test_list_${number}.Module, test_list_${number}.Test_Name FROM `test_list_${number}` LEFT JOIN test_list_${number-1} ON test_list_${number}.Test_Name=test_list_${number-1}.Test_Name WHERE test_list.Test_Name IS NULL;SELECT CASE WHEN EXISTS (SELECT 1 FROM comparison_${number}) THEN 0 ELSE 1 END INTO @pass; ELSE SET @pass=1; END IF;"
+                        '''
+                        withEnv("pass=${mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e 'SELECT @pass;'}") {
+                            if (${pass}=0){mysql -h 10.100.99.143 -u $user      -p$pass SPARK2 -e "DROP TABLE test_list_${number}, aborted_tests_${number}, results_${number}, comparison_${number};"
+                            error("Pipeline terminated due to an increase of failed test.")
+                            }
+                            else {
+                                echo "No further Test errors than before"
+                            }
+                        }
                     }
                 }
             }
