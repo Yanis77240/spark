@@ -10,7 +10,7 @@ if [ "$(mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e 'SELECT CASE WHEN EXIS
 elif [ "$(mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e 'SELECT CASE WHEN EXISTS (SELECT 1 FROM comparison_tests_'$number')  THEN 0 ELSE 1 END INTO @passed_tests; SELECT @passed_tests;' -sN)" = 0 ]; then
     echo "Pipeline terminated due to an increase of failed tests." >&2
     exit 1
-elif [ "$(mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e 'SELECT COUNT(*) FROM test_list_'$number';' -sN)" -lt 600 ]; then
+elif [ "$(mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e 'SELECT COUNT(*) FROM test_list_'$number';' -sN)" -gt 600 ]; then
     echo "Pipeline terminated due to too many failed tests." >&2
     exit 1
 else
