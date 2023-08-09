@@ -63,10 +63,13 @@ podTemplate(containers: [
                             }
                             println lastSuccessfulBuildID
                         }
-                        
+                        sh '''
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE IF NOT EXISTS aborted_tests_${lastSuccessfulBuildID} AS SELECT * FROM aborted_tests_${number};"
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE comparison_aborted_${number} AS SELECT aborted_tests_${number}.Module, aborted_tests_${number}.Test_Name FROM aborted_tests_${number} LEFT JOIN aborted_tests_${lastSuccessfulBuildID} ON aborted_tests_${number}.Test_Name=aborted_tests_${lastSuccessfulBuildID}.Test_Name WHERE aborted_tests_${lastSuccessfulBuildID}.Test_Name IS NULL;"
+                        '''
                         sh '''
                         mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE IF NOT EXISTS test_list_${lastSuccessfulBuildID} AS SELECT * FROM test_list_${number};"
-                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE comparison_${number} AS SELECT test_list_${number}.Module, test_list_${number}.Test_Name FROM test_list_${number} LEFT JOIN test_list_${lastSuccessfulBuildID} ON test_list_${number}.Test_Name=test_list_${lastSuccessfulBuildID}.Test_Name WHERE test_list_${lastSuccessfulBuildID}.Test_Name IS NULL;"
+                        mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE comparison_tests_${number} AS SELECT test_list_${number}.Module, test_list_${number}.Test_Name FROM test_list_${number} LEFT JOIN test_list_${lastSuccessfulBuildID} ON test_list_${number}.Test_Name=test_list_${lastSuccessfulBuildID}.Test_Name WHERE test_list_${lastSuccessfulBuildID}.Test_Name IS NULL;"
                         '''
                         sh '''
                        ./decision-script.sh ${number}
