@@ -71,7 +71,6 @@ podTemplate(containers: [
                         sh '''
                        ./decision-script.sh ${number}
                         '''
-                        }
                     }
                 }
             }
