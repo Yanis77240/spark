@@ -50,19 +50,12 @@ podTemplate(containers: [
                         sh '''
                         mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE test_resume_${number} (Module VARCHAR(125), Results VARCHAR(255)); LOAD DATA LOCAL INFILE 'scala-end-results.txt' INTO TABLE test_resume_${number} FIELDS TERMINATED BY 'txt:' LINES TERMINATED by '\n'; UPDATE test_resume_${number} SET Module = REPLACE(Module, '/target/surefire-reports/SparkTestSuite.', ''); CREATE TABLE results_${number} (SELECT Module, SUBSTRING_INDEX(Results, ',', 1) AS Succeeded,     SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 2), ',', -1) AS Failed,     SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 3), ',', -1) AS Canceled, SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 4), ',', -1) AS Ignored, SUBSTRING_INDEX(SUBSTRING_INDEX(Results, ',', 5), ',', -1) AS Pending  FROM test_resume_${number}); drop table test_resume_${number}; UPDATE results_${number} SET Succeeded = SUBSTRING_INDEX(Succeeded, ' ', -1), Failed = SUBSTRING_INDEX(Failed, ' ', -1), Canceled = SUBSTRING_INDEX(Canceled, ' ', -1), Ignored = SUBSTRING_INDEX(Ignored, ' ', -1), Pending = SUBSTRING_INDEX(Pending, ' ', -1);"
                         '''
-                        withEnv(["n1=${currentBuild.number - 1}"]){
+                        withEnv(["n1=${currentBuild.number - 3}"]){
                             sh '''
                             mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE IF NOT EXISTS test_list_${n1} AS SELECT * FROM test_list_${number};"
-                            mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE comparison_${number} AS SELECT test_list_${number}.Module, test_list_${number}.Test_Name FROM test_list_${number} LEFT JOIN test_list_${n1} ON test_list_${number}.Test_Name=test_list_${n1}.Test_Name WHERE test_list_${n1}.Test_Name IS NULL;SELECT CASE WHEN EXISTS (SELECT 1 FROM comparison_${number}) THEN 0 ELSE 1 END INTO @pass;"
-                        
-                            export pass=${"mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e 'SELECT @pass;'}
-                            if ("${pass}=0"){'mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "DROP TABLE test_list_${number}, aborted_tests_${number}, results_${number}, comparison_${number};"'
-                            error("Pipeline terminated due to an increase of failed test.")
-                            }
-                            else {
-                                echo "No further Test errors than before"
-                            }
+                            mysql -h 10.100.99.143 -u $user -p$pass SPARK2 -e "CREATE TABLE comparison_${number} AS SELECT test_list_${number}.Module, test_list_${number}.Test_Name FROM test_list_${number} LEFT JOIN test_list_${n1} ON test_list_${number}.Test_Name=test_list_${n1}.Test_Name WHERE test_list_${n1}.Test_Name IS NULL;SELECT CASE WHEN EXISTS (SELECT 1 FROM comparison_${number}) THEN 0 ELSE 1 END INTO @passed;"
                             '''
+                            sh "./decision-script.sh"
                         }
                     }
                 }
