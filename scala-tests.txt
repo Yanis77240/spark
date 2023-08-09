@@ -1,6 +1,5 @@
 core/target/surefire-reports/SparkTestSuite.txt:- download remote resource if it is not supported by yarn service *** FAILED ***
 sql/catalyst/target/surefire-reports/SparkTestSuite.txt:- daysToMillis and millisToDays *** FAILED ***
-sql/catalyst/target/surefire-reports/SparkTestSuite.txt:- testing tests test *** FAILED ***
 sql/core/target/surefire-reports/SparkTestSuite.txt:- SPARK-6330 regression test *** FAILED ***
 sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-22745 - read Hive's statistics for partition *** FAILED ***
 sql/hive/target/surefire-reports/SparkTestSuite.txt:- alter table rename after analyze table *** FAILED ***
