@@ -1,5 +1,4 @@
 core/target/surefire-reports/SparkTestSuite.txt:[31m- download remote resource if it is not supported by yarn service *** FAILED ***[0m
-core/target/surefire-reports/SparkTestSuite.txt:[31m- testing test for test *** FAILED ***[0m
 sql/catalyst/target/surefire-reports/SparkTestSuite.txt:[31m- daysToMillis and millisToDays *** FAILED ***[0m
 sql/core/target/surefire-reports/SparkTestSuite.txt:[31m- SPARK-6330 regression test *** FAILED ***[0m
 sql/hive/target/surefire-reports/SparkTestSuite.txt:[31m- SPARK-22745 - read Hive's statistics for partition *** FAILED ***[0m
