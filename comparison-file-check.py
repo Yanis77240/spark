@@ -5,7 +5,7 @@ import sys
 # define file
 
 
-if len(sys.argv) == 2:
+if sys.argv[1] != "0":
     # define file
     comparison_file = sys.argv[1]
     # Check if file is of a valid json and if it is the case load the dataframe
