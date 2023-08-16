@@ -48,7 +48,7 @@ podTemplate(containers: [
                         grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > scala-end-results.txt
                         /$
                         sh './transformation.sh'
-                        sh './decision.sh'
+                        sh './decision.sh ${number}'
                         sh 'curl -v -u $user:$pass --upload-file results-${number}.json http://10.110.4.212:8081/repository/scala-test-reports/spark/results-${number}.json'
                     }
                 }
