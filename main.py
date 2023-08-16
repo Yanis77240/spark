@@ -54,7 +54,7 @@ def comparison_producer(build_number, comparison_run):
 
         # Load the external dataframe which we want to compare
         # If We do not give a comparison run, we compare it with the same dataset which will not give any difference
-        if comparison_run == None:
+        if comparison_run == "0":
             df_external = df1
         # Otherwise we compare it with the dataset we give for comparison
         else:
