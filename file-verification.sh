@@ -3,5 +3,6 @@ if [ "${file}"="0" ]; then
 else
     curl -v http://10.10.10.11:30000/repository/scala-test-reports/spark/${file} > ${file}
     python3 comparison-file-check.py ${file}
+fi
 echo 'python3 main.py ${number} ${file}' > transformation.sh
 chmod 777 transformation.sh
