@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 import sys
 import os
@@ -71,7 +70,7 @@ def comparison_producer(build_number, comparison_run):
         
         print("Data transformation succeeded")
 
-        # Produce csv file for comparison and entire dataframe
+        # Produce csv file for comparison and entire dataframe taht we will need later on for the decision making. These are the required outputs of the function.
         return df_comparison.to_csv('comparison.csv', header=False), df1.to_json(f'results-{build_number}.json')
         
     except:
