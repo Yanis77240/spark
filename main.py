@@ -87,5 +87,5 @@ if __name__ == "__main__":
         comparison_run = sys.argv[2]
     # Otherwise the variable comparison-run will be empty
     else:
-        comparison_run = None
+        comparison_run = "0"
     comparison_producer(build_number, comparison_run)
