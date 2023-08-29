@@ -45,7 +45,6 @@ def comparison_producer(build_number, comparison_run):
             df_external = df
         # Otherwise we compare it with the dataset we give for comparison
         else:
-
             # Read the JSON data as a dictionary
             with open(f'{comparison_run}', 'r') as json_file:
                 json_data = json.load(json_file)
