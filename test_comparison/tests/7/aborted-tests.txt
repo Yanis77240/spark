@@ -1,0 +1,2 @@
+sql/hive/target/surefire-reports/SparkTestSuite.txt:*** RUN ABORTED ***
+resource-managers/yarn/target/surefire-reports/SparkTestSuite.txt:*** RUN ABORTED ***

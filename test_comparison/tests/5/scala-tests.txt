@@ -1,0 +1,510 @@
+core/target/surefire-reports/SparkTestSuite.txt:- download remote resource if it is not supported by yarn service *** FAILED ***
+sql/catalyst/target/surefire-reports/SparkTestSuite.txt:- daysToMillis and millisToDays *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- alter table SET TBLPROPERTIES after analyze table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- alter table UNSET TBLPROPERTIES after analyze table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- success sanity check *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- hadoop configuration preserved *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.12: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.13: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 0.14: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.0: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.1: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 1.2: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.0: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: create client *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: createDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: createDatabase with null description *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: setCurrentDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: databaseExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: listDatabases *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: dropDatabase *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: createTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: loadTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: tableExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getTableOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterTable(table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterTable - rename *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterTable - change database *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterTable - change database and table names *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: listTables(database) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: listTables(database, pattern) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: dropTable *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: sql create partitioned table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: createPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartitionNames(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartitions(catalogTable) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartitionsByFilter *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getPartitions(db: String, table: String) *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: loadPartition *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: loadDynamicPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: renamePartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: dropPartitions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: createFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: functionExists *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: renameFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: alterFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getFunctionOption *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: listFunctions *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: dropFunction *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: sql set command *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: sql create index and reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: version *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: getConf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: setOut *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: setInfo *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: setError *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: newSession *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: withHiveState and addJar *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: reset *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: CREATE TABLE AS SELECT *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: Delete the temporary staging directory and files after each insert *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: CTAS for managed data source tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: Decimal support of Avro Hive serde *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: read avro file containing decimal *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- 2.1: SPARK-17920: Insert into/overwrite avro table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-18355 Read data from a hive table with a new column - orc *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-18355 Read data from a hive table with a new column - parquet *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- create Hive-serde table and view with unicode columns and comment *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- basic DDL using locale tr - caseSensitive true *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-21617: ALTER TABLE for non-compatible DataSource tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-21617: ALTER TABLE for Hive-compatible DataSource tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-21617: ALTER TABLE for Hive tables *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-21617: ALTER TABLE with incompatible schema on Hive-compatible table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- shaded Protobuf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- Forbidden Dependencies *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- Read/Write Hive PARQUET serde table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- Read/Write Hive ORC serde table *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-19459/SPARK-18220: read char/varchar column written by Hive *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-8020: set sql conf in spark conf *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-9757 Persist Parquet relation with decimal column *** FAILED ***
+sql/hive/target/surefire-reports/SparkTestSuite.txt:- SPARK-16901: set javax.jdo.option.ConnectionURL *** FAILED ***

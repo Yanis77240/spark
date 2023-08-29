@@ -40,7 +40,7 @@ podTemplate(containers: [
                     withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
                         sh 'mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --batch-mode -Dsurefire.rerunFailingTestsCount=3 --fail-never -Dstyle.color=never'
                         sh 'mvn surefire-report:report-only  -Daggregate=true'
-                        sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-2.3/surefire-report-${number}.html'
+                        sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://172.19.0.2:8081/repository/test-reports/spark-2.3/surefire-report-${number}.html'
                         /* extract the scalatest-plugin data output and remove all color signs */
                         sh script: $/
                         grep -F --color=never --no-group-separator "*** FAILED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > scala-tests.txt
@@ -49,7 +49,7 @@ podTemplate(containers: [
                         /$
                         sh './transformation.sh'
                         sh './decision.sh ${number}'
-                        sh 'curl -v -u $user:$pass --upload-file results-${number}.json http://10.110.4.212:8081/repository/scala-test-reports/spark/results-${number}.json'
+                        sh 'curl -v -u $user:$pass --upload-file results-${number}.json http://172.19.0.2:8081/repository/scala-test-reports/spark/results-${number}.json'
                     }
                 }
             }
@@ -63,7 +63,7 @@ podTemplate(containers: [
                 echo "Publish tar.gz..."
                 withEnv(["number=${currentBuild.number}"]) {
                     withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
-                        sh 'curl -v -u $user:$pass --upload-file spark-2.3.5-TDP-0.1.0-SNAPSHOT-bin-tdp.tgz http://10.110.4.212:8081/repository/maven-tar-files/spark-2.3/spark-2.3.5-TDP-0.1.0-SNAPSHOT-bin-tdp-${number}.tar.gz'
+                        sh 'curl -v -u $user:$pass --upload-file spark-2.3.5-TDP-0.1.0-SNAPSHOT-bin-tdp.tgz http://172.19.0.2:8081/repository/maven-tar-files/spark-2.3/spark-2.3.5-TDP-0.1.0-SNAPSHOT-bin-tdp-${number}.tar.gz'
                     }
                 }
             }       
