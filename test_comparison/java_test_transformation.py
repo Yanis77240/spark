@@ -18,7 +18,7 @@ def java_test_transfomer(build_number):
     # Give column names
     df.columns = ['Tests_run', 'Failures', 'Errors', 'Skipped', 'Test_group']
     # Erase all unnecessary characters in each column and transform them into type int64
-    df['Tests_run'] = df['Tests_run'].str.split(':', n=1).str[1]
+    df['Tests_run'] = df['Tests_run'].str.split(':', n=1).str[1].astype('int64')
     df['Failures'] = df['Failures'].str.split(':', n=1).str[1].astype('int64')
     df['Errors'] = df['Errors'].str.split(':', n=1).str[1].astype('int64')
     df['Skipped'] = df['Skipped'].str.split(':', n=1).str[1].astype('int64')
