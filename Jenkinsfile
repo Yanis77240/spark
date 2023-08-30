@@ -52,6 +52,7 @@ podTemplate(containers: [
                         grep -F --color=never --no-group-separator "*** FAILED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-tests.txt
                         grep -E --color=never --no-group-separator "*** RUN ABORTED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/aborted-tests.txt
                         grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-end-results.txt
+                        echo "Tests_run, Failures, Errors, Skipped, Test_group" > output-tests.csv
                         grep -E --color=never 'Failures:| Errors:| Skipped:' output.txt | awk '/Failures:/ && /Errors:/ && /Skipped:/' >> test_comparison/output-tests.csv
                         grep -E --color=never '[Error].*org.*<<< ERROR!|[Error].*org.*<<< FAILURE!' output.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/java-test-failures.txt
                         /$
