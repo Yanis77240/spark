@@ -11,9 +11,6 @@ podTemplate(containers: [
 
     node(POD_LABEL) {
         container('tdp-builder') {
-            environment {
-                number="${currentBuild.number}"
-            }
             stage('Git Clone') {
                 echo "Cloning..."
                 git branch: 'branch-2.3-TDP-alliage-k8s', url: 'https://github.com/Yanis77240/spark'
@@ -49,11 +46,17 @@ podTemplate(containers: [
                         sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-2.3/surefire-report-${number}.html'
                         /* extract the scalatest-plugin data and java-test data output and remove all color signs */
                         sh script: $/
+                        # Generate text file with all failed scala tests without any colors
                         grep -F --color=never --no-group-separator "*** FAILED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-tests.txt
+                        # Generate text file with all Aborted modules without any colors
                         grep -E --color=never --no-group-separator "*** RUN ABORTED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/aborted-tests.txt
+                        # Generate text file with all scala test statistics without any colors
                         grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-end-results.txt
-                        echo "Tests_run, Failures, Errors, Skipped, Test_group" > output-tests.csv
+                        # Create CVS file with following titles as header
+                        echo "Tests_run, Failures, Errors, Skipped, Test_group" > test_comparison/output-tests.csv
+                        # Grep all Java test staistics in CSV file
                         grep -E --color=never 'Failures:| Errors:| Skipped:' output.txt | awk '/Failures:/ && /Errors:/ && /Skipped:/' >> test_comparison/output-tests.csv
+                        # Generate text file with all failed Java tests without any colors
                         grep -E --color=never '[Error].*org.*<<< ERROR!|[Error].*org.*<<< FAILURE!' output.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/java-test-failures.txt
                         /$
                         /* Perform the data transformation and the comparison*/
