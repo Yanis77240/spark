@@ -22,7 +22,7 @@ def java_test_transfomer(build_number):
         df['Failures'] = df['Failures'].str.split(':', n=1).str[1].astype('int64')
         df['Errors'] = df['Errors'].str.split(':', n=1).str[1].astype('int64')
         df['Skipped'] = df['Skipped'].str.split(':', n=1).str[1].astype('int64')
-        df['Test_group'] = df['Test_group'].str.split('-', n=1).str[1].str.replace('in','')
+        df['Test_group'] = df['Test_group'].str.split('-', n=1).str[1].str.replace(' in ','')
         # delete lines where no testname is given which corresponds to the total columns
         df = df.dropna(subset=['Test_group'])
         # Add empty columns below to be compatible with schema
