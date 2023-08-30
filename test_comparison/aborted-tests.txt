@@ -1,1 +1,0 @@
-resource-managers/yarn/target/surefire-reports/SparkTestSuite.txt:*** RUN ABORTED ***

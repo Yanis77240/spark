@@ -57,8 +57,6 @@ def java_test_transfomer(build_number):
         
         # There shouldn't be any duplicates but if there are we should drop them
         df = df.drop_duplicates()
-
-        #df.to_json("testing.json", orient= "table")
         
         # Convert DataFrame to a nested dictionary
         # Create a dictionnary

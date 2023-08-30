@@ -1,3 +1,0 @@
-grep -E --color=never '[Error].*org.*<<< ERROR!|[Error].*org.*<<< FAILURE!' output.txt > java-test-failures.txt
-
-grep -E --color=never 'Failures:| Errors:| Skipped:' output.txt > output-tests.csv
