@@ -42,15 +42,17 @@ podTemplate(containers: [
                 withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
                     withEnv(["number=${currentBuild.number}"]) {
                         /* Perform the tests and the surefire reporting*/
-                        sh 'mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --batch-mode --fail-never -Dstyle.color=never | tee output.txt'
-                        sh 'mvn surefire-report:report-only  -Daggregate=true'
+                        sh '''
+                        mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --batch-mode --fail-never -Dstyle.color=never | tee output.txt
+                        '''
+                        /*sh 'mvn surefire-report:report-only  -Daggregate=true'
                         sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-2.3/surefire-report-${number}.html'
                         /* extract the scalatest-plugin data and java-test data output and remove all color signs */
                         sh script: $/
                         grep -F --color=never --no-group-separator "*** FAILED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-tests.txt
                         grep -E --color=never --no-group-separator "*** RUN ABORTED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/aborted-tests.txt
                         grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-end-results.txt
-                        grep -E --color=never 'Failures:| Errors:| Skipped:' output.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/output-tests.csv
+                        grep -E --color=never 'Failures:| Errors:| Skipped:' output.txt | awk '/Failures:/ && /Errors:/ && /Skipped:/' >> test_comparison/output-tests.csv
                         grep -E --color=never '[Error].*org.*<<< ERROR!|[Error].*org.*<<< FAILURE!' output.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/java-test-failures.txt
                         /$
                         /* Perform the data transformation and the comparison*/

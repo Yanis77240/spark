@@ -75,6 +75,15 @@ target/
 unit-tests.log
 work/
 
+# the test output
+test_comparison/output.txt
+
+# amputated Jenkinsfile
+jenkinsfile
+
+# sql transformations
+sql-transformation.txt
+
 # For Hive
 TempStatsStore/
 metastore/
