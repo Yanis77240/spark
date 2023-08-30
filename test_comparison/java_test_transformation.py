@@ -88,5 +88,5 @@ def java_test_transfomer(build_number):
     print("Java data transformation succeeded")
 
     #except:
-        print("Java data transformation failed")
-        sys.exit(1)
+        #print("Java data transformation failed")
+        #sys.exit(1)
