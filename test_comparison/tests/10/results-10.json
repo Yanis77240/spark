@@ -4,11 +4,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.kvstore.ArrayWrappersSuite": {
@@ -16,11 +16,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.kvstore.LevelDBIteratorSuite": {
@@ -28,11 +28,11 @@
       "Succeeded": 38.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.kvstore.InMemoryIteratorSuite": {
@@ -40,11 +40,11 @@
       "Succeeded": 38.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.kvstore.LevelDBTypeInfoSuite": {
@@ -52,11 +52,11 @@
       "Succeeded": 10.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.kvstore.LevelDBSuite": {
@@ -64,11 +64,11 @@
       "Succeeded": 8.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.util.TransportFrameDecoderSuite": {
@@ -76,11 +76,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.util.NettyMemoryMetricsSuite": {
@@ -88,11 +88,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.util.CryptoUtilsSuite": {
@@ -100,11 +100,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.TransportResponseHandlerSuite": {
@@ -112,11 +112,11 @@
       "Succeeded": 8.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.TransportClientFactorySuite": {
@@ -124,11 +124,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.protocol.MessageWithHeaderSuite": {
@@ -136,11 +136,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.crypto.AuthEngeSuite": {
@@ -148,11 +148,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.crypto.AuthMessagesSuite": {
@@ -160,11 +160,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.crypto.AuthIntegrationSuite": {
@@ -172,11 +172,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.sasl.SparkSaslSuite": {
@@ -184,11 +184,11 @@
       "Succeeded": 11.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.server.OneForOneStreamManagerSuite": {
@@ -196,11 +196,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.ProtocolSuite": {
@@ -208,11 +208,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.TransportRequestHandlerSuite": {
@@ -220,11 +220,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.RequestTimeoutIntegrationSuite": {
@@ -232,11 +232,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.StreamSuite": {
@@ -244,11 +244,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.ChunkFetchIntegrationSuite": {
@@ -256,11 +256,11 @@
       "Succeeded": 5.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.RpcIntegrationSuite": {
@@ -268,11 +268,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.sasl.SaslIntegrationSuite": {
@@ -280,11 +280,11 @@
       "Succeeded": 5.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.sasl.ShuffleSecretManagerSuite": {
@@ -292,11 +292,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.RetrygBlockFetcherSuite": {
@@ -304,11 +304,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.ExternalShuffleSecuritySuite": {
@@ -316,11 +316,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.ExternalShuffleBlockHandlerSuite": {
@@ -328,11 +328,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.ExternalShuffleIntegrationSuite": {
@@ -340,11 +340,11 @@
       "Succeeded": 8.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.ExternalShuffleBlockResolverSuite": {
@@ -352,11 +352,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.OneForOneBlockFetcherSuite": {
@@ -364,11 +364,11 @@
       "Succeeded": 5.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.ExternalShuffleCleanupSuite": {
@@ -376,11 +376,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.network.shuffle.BlockTransferMessagesSuite": {
@@ -388,11 +388,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.types.UTF8StrgSuite": {
@@ -400,11 +400,11 @@
       "Succeeded": 38.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.types.CalendarIntervalSuite": {
@@ -412,11 +412,11 @@
       "Succeeded": 9.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.array.LongArraySuite": {
@@ -424,11 +424,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.PlatformUtilSuite": {
@@ -436,11 +436,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.hash.Murmur3_x86_32Suite": {
@@ -448,11 +448,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.InProcessLauncherSuite": {
@@ -460,11 +460,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.LauncherServerSuite": {
@@ -472,11 +472,11 @@
       "Succeeded": 5.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.CommandBuilderUtilsSuite": {
@@ -484,11 +484,11 @@
       "Succeeded": 5.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.SparkSubmitCommandBuilderSuite": {
@@ -496,11 +496,11 @@
       "Succeeded": 12.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.ChildProcAppHandleSuite": {
@@ -508,11 +508,11 @@
       "Succeeded": 11.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.SparkSubmitOptionParserSuite": {
@@ -520,11 +520,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterRadixSortSuite": {
@@ -532,11 +532,11 @@
       "Succeeded": 13.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite": {
@@ -544,11 +544,11 @@
       "Succeeded": 13.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterSuite": {
@@ -556,11 +556,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterRadixSortSuite": {
@@ -568,11 +568,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.api.java.OptionalSuite": {
@@ -580,11 +580,11 @@
       "Succeeded": 8.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.io.ReadAheadInputStreamSuite": {
@@ -592,11 +592,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.io.NioBufferedInputStreamSuite": {
@@ -604,11 +604,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.map.BytesToBytesMapOffHeapSuite": {
@@ -616,11 +616,11 @@
       "Succeeded": 13.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.unsafe.map.BytesToBytesMapOnHeapSuite": {
@@ -628,11 +628,11 @@
       "Succeeded": 13.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.shuffle.sort.PackedRecordPoterSuite": {
@@ -640,11 +640,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.shuffle.sort.ShuffleInMemoryRadixSorterSuite": {
@@ -652,11 +652,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.shuffle.sort.ShuffleInMemorySorterSuite": {
@@ -664,11 +664,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite": {
@@ -676,11 +676,11 @@
       "Succeeded": 25.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.memory.TaskMemoryManagerSuite": {
@@ -688,11 +688,11 @@
       "Succeeded": 10.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.JavaJdbcRDDSuite": {
@@ -700,11 +700,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.launcher.SparkLauncherSuite": {
@@ -712,11 +712,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.Java8RDDAPISuite": {
@@ -724,11 +724,11 @@
       "Succeeded": 18.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.JavaAPISuite": {
@@ -736,11 +736,11 @@
       "Succeeded": 90.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.JavaSparkContextSuite": {
@@ -748,11 +748,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.JavaDurationSuite": {
@@ -760,11 +760,11 @@
       "Succeeded": 11.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.JavaWriteAheadLogSuite": {
@@ -772,11 +772,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.JavaMapWithStateSuite": {
@@ -784,11 +784,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.JavaReceiverAPISuite": {
@@ -796,11 +796,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.JavaTimeSuite": {
@@ -808,11 +808,11 @@
       "Succeeded": 7.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.streamg.Java8APISuite": {
@@ -820,11 +820,11 @@
       "Succeeded": 26.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.streamg.JavaAPISuite": {
@@ -832,11 +832,11 @@
       "Succeeded": 53.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.streamg.JavaOutputModeSuite": {
@@ -844,11 +844,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.streamg.JavaGroupStateTimeoutSuite": {
@@ -856,11 +856,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.catalyst.expressions.XXH64Suite": {
@@ -868,11 +868,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.catalyst.expressions.RowBasedKeyValueBatchSuite": {
@@ -880,11 +880,11 @@
       "Succeeded": 10.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.catalyst.expressions.HiveHasherSuite": {
@@ -892,11 +892,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaDatasetAggregatorSuite": {
@@ -904,11 +904,11 @@
       "Succeeded": 5.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.execution.sort.RecordBaryComparatorSuite": {
@@ -916,11 +916,11 @@
       "Succeeded": 8.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaDatasetSuite": {
@@ -928,11 +928,11 @@
       "Succeeded": 31.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaBeanWithArraySuite": {
@@ -940,11 +940,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaUDAFSuite": {
@@ -952,11 +952,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaDataFrameSuite": {
@@ -964,11 +964,11 @@
       "Succeeded": 21.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaDataFrameReaderWriterSuite": {
@@ -976,11 +976,11 @@
       "Succeeded": 9.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaUDFSuite": {
@@ -988,11 +988,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaSaveLoadSuite": {
@@ -1000,11 +1000,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaRowSuite": {
@@ -1012,11 +1012,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.JavaApplySchemaSuite": {
@@ -1024,11 +1024,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  test.org.apache.spark.sql.Java8DatasetAggregatorSuite": {
@@ -1036,11 +1036,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.stat.JavaStatisticsSuite": {
@@ -1048,11 +1048,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.util.JavaMLUtilsSuite": {
@@ -1060,11 +1060,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.fpm.JavaAssociationRulesSuite": {
@@ -1072,11 +1072,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.fpm.JavaPrefixSpanSuite": {
@@ -1084,11 +1084,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.fpm.JavaFPGrowthSuite": {
@@ -1096,11 +1096,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.feature.JavaWord2VecSuite": {
@@ -1108,11 +1108,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.feature.JavaTfIdfSuite": {
@@ -1120,11 +1120,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.clusterg.JavaStreamgKMeansSuite": {
@@ -1132,11 +1132,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.clusterg.JavaKMeansSuite": {
@@ -1144,11 +1144,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.clusterg.JavaLDASuite": {
@@ -1156,11 +1156,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.clusterg.JavaGaussianMixtureSuite": {
@@ -1168,11 +1168,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.clusterg.JavaBisectgKMeansSuite": {
@@ -1180,11 +1180,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.evaluation.JavaRankgMetricsSuite": {
@@ -1192,11 +1192,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.recommendation.JavaALSSuite": {
@@ -1204,11 +1204,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.regression.JavaStreamgLearRegressionSuite": {
@@ -1216,11 +1216,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.regression.JavaLearRegressionSuite": {
@@ -1228,11 +1228,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.regression.JavaLassoSuite": {
@@ -1240,11 +1240,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.regression.JavaRidgeRegressionSuite": {
@@ -1252,11 +1252,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.regression.JavaIsotonicRegressionSuite": {
@@ -1264,11 +1264,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.lalg.JavaMatricesSuite": {
@@ -1276,11 +1276,11 @@
       "Succeeded": 6.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.lalg.JavaVectorsSuite": {
@@ -1288,11 +1288,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.lalg.distributed.JavaRowMatrixSuite": {
@@ -1300,11 +1300,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.tree.JavaDecisionTreeSuite": {
@@ -1312,11 +1312,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.classification.JavaStreamgLogisticRegressionSuite": {
@@ -1324,11 +1324,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.classification.JavaNaiveBayesSuite": {
@@ -1336,11 +1336,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.classification.JavaSVMSuite": {
@@ -1348,11 +1348,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.classification.JavaLogisticRegressionSuite": {
@@ -1360,11 +1360,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.mllib.random.JavaRandomRDDsSuite": {
@@ -1372,11 +1372,11 @@
       "Succeeded": 14.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.stat.JavaSummarizerSuite": {
@@ -1384,11 +1384,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.util.JavaDefaultReadWriteSuite": {
@@ -1396,11 +1396,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.param.JavaParamsSuite": {
@@ -1408,11 +1408,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaPolynomialExpansionSuite": {
@@ -1420,11 +1420,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaPCASuite": {
@@ -1432,11 +1432,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaDCTSuite": {
@@ -1444,11 +1444,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaBucketizerSuite": {
@@ -1456,11 +1456,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaTokenizerSuite": {
@@ -1468,11 +1468,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaStrgIndexerSuite": {
@@ -1480,11 +1480,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaWord2VecSuite": {
@@ -1492,11 +1492,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaVectorIndexerSuite": {
@@ -1504,11 +1504,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaVectorAssemblerSuite": {
@@ -1516,11 +1516,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaStandardScalerSuite": {
@@ -1528,11 +1528,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaVectorSlicerSuite": {
@@ -1540,11 +1540,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaStopWordsRemoverSuite": {
@@ -1552,11 +1552,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaNormalizerSuite": {
@@ -1564,11 +1564,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.feature.JavaHashgTFSuite": {
@@ -1576,11 +1576,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.source.libsvm.JavaLibSVMRelationSuite": {
@@ -1588,11 +1588,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.clusterg.JavaKMeansSuite": {
@@ -1600,11 +1600,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.tung.JavaCrossValidatorSuite": {
@@ -1612,11 +1612,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.JavaPipeleSuite": {
@@ -1624,11 +1624,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.attribute.JavaAttributeSuite": {
@@ -1636,11 +1636,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.attribute.JavaAttributeGroupSuite": {
@@ -1648,11 +1648,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.regression.JavaLearRegressionSuite": {
@@ -1660,11 +1660,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.regression.JavaRandomForestRegressorSuite": {
@@ -1672,11 +1672,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.regression.JavaGBTRegressorSuite": {
@@ -1684,11 +1684,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.regression.JavaDecisionTreeRegressorSuite": {
@@ -1696,11 +1696,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.lalg.JavaSQLDataTypesSuite": {
@@ -1708,11 +1708,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaDecisionTreeClassifierSuite": {
@@ -1720,11 +1720,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaGBTClassifierSuite": {
@@ -1732,11 +1732,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaNaiveBayesSuite": {
@@ -1744,11 +1744,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaMultilayerPerceptronClassifierSuite": {
@@ -1756,11 +1756,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaOneVsRestSuite": {
@@ -1768,11 +1768,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaLogisticRegressionSuite": {
@@ -1780,11 +1780,11 @@
       "Succeeded": 4.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.ml.classification.JavaRandomForestClassifierSuite": {
@@ -1792,11 +1792,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.hive.JavaDataFrameSuite": {
@@ -1804,11 +1804,11 @@
       "Succeeded": 2.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.sql.hive.JavaMetastoreDataSourcesSuite": {
@@ -1816,11 +1816,11 @@
       "Succeeded": 3.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.kafka010.JavaConsumerStrategySuite": {
@@ -1828,11 +1828,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.kafka010.JavaLocationStrategySuite": {
@@ -1840,11 +1840,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.kafka010.JavaDirectKafkaStreamSuite": {
@@ -1852,11 +1852,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.kafka010.JavaKafkaRDDSuite": {
@@ -1864,11 +1864,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.flume.JavaFlumeStreamSuite": {
@@ -1876,11 +1876,11 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "  org.apache.spark.streamg.flume.JavaFlumePollgStreamSuite": {
@@ -1888,20 +1888,20 @@
       "Succeeded": 1.0,
       "Failed": 0.0,
       "Skipped": 0.0,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "org.apache.hadoop.util.TestReadWriteDiskValidator": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testReadWriteDiskValidator",
@@ -1910,11 +1910,11 @@
   },
   "org.apache.hadoop.io.compress.TestCompressorDecompressor": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testCompressorDecompressor",
@@ -1923,11 +1923,11 @@
   },
   "org.apache.hadoop.io.compress.snappy.TestSnappyCompressorDecompressor": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testSnappyCompressDecompressInMultiThreads",
@@ -1936,11 +1936,11 @@
   },
   "org.apache.hadoop.security.TestLdapGroupsMapping": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testLdapReadTimeout",
@@ -1949,11 +1949,11 @@
   },
   "org.apache.hadoop.hdfs.TestFileChecksum": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testStripedFileChecksumWithMissedDataBlocksRangeQuery10",
@@ -1971,11 +1971,11 @@
   },
   "org.apache.hadoop.hdfs.TestFileChecksumCompositeCrc": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testStripedFileChecksumWithMissedDataBlocksRangeQuery13",
@@ -1988,11 +1988,11 @@
   },
   "org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testRecoverAnyBlocks1",
@@ -2002,11 +2002,11 @@
   },
   "org.apache.hadoop.mapred.TestMRTimelineEventHandling": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testMRNewTimelineServiceEventHandling"
@@ -2014,11 +2014,11 @@
   },
   "nodeFile null": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
-      "Aborted_tests": NaN
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "testSimulatorRunning[Testing with: SYNTH, org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler, "
@@ -2030,10 +2030,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "core": {
@@ -2042,7 +2042,7 @@
       "Failed": 2.0,
       "Skipped": 9.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "- download remote resource if it is not supported by yarn service *** FAILED ***",
@@ -2055,10 +2055,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "graphx": {
@@ -2067,10 +2067,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "launcher": {
@@ -2079,10 +2079,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "mllib-local": {
@@ -2091,10 +2091,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "mllib": {
@@ -2103,10 +2103,10 @@
       "Failed": 0.0,
       "Skipped": 7.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "repl": {
@@ -2115,10 +2115,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "streaming": {
@@ -2127,10 +2127,10 @@
       "Failed": 0.0,
       "Skipped": 1.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/kvstore": {
@@ -2139,10 +2139,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/network-common": {
@@ -2151,10 +2151,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/network-shuffle": {
@@ -2163,10 +2163,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/network-yarn": {
@@ -2175,10 +2175,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/sketch": {
@@ -2187,10 +2187,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/tags": {
@@ -2199,10 +2199,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "common/unsafe": {
@@ -2211,10 +2211,10 @@
       "Failed": 0.0,
       "Skipped": 1.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "external/flume-assembly": {
@@ -2223,10 +2223,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "external/flume-sink": {
@@ -2235,10 +2235,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "external/flume": {
@@ -2247,10 +2247,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "external/kafka-0-10-assembly": {
@@ -2259,10 +2259,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "external/kafka-0-10-sql": {
@@ -2271,10 +2271,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "external/kafka-0-10": {
@@ -2283,10 +2283,10 @@
       "Failed": 0.0,
       "Skipped": 0.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "sql/catalyst": {
@@ -2295,7 +2295,7 @@
       "Failed": 1.0,
       "Skipped": 2.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "- daysToMillis and millisToDays *** FAILED ***"
@@ -2307,7 +2307,7 @@
       "Failed": 1.0,
       "Skipped": 59.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "- SPARK-6330 regression test *** FAILED ***"
@@ -2319,7 +2319,7 @@
       "Failed": 511.0,
       "Skipped": 595.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
       "- SPARK-22745 - read Hive's statistics for partition *** FAILED ***",
@@ -2841,34 +2841,34 @@
       "Failed": 0.0,
       "Skipped": 2.0,
       "Pending": 0.0,
-      "Aborted_tests": NaN
+      "Aborted_tests": null
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "resource-managers/yarn": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
       "Aborted_tests": "*** RUN ABORTED ***"
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   },
   "tools": {
     "attributes": {
-      "Succeeded": NaN,
-      "Failed": NaN,
-      "Skipped": NaN,
-      "Pending": NaN,
+      "Succeeded": null,
+      "Failed": null,
+      "Skipped": null,
+      "Pending": null,
       "Aborted_tests": "*** RUN ABORTED ***"
     },
     "Failed_tests": [
-      NaN
+      null
     ]
   }
 }

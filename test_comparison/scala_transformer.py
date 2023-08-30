@@ -1,6 +1,7 @@
 # scala_transformer.py
 
 import pandas as pd
+import numpy as np
 import sys
 import os
 import json
@@ -94,6 +95,9 @@ def scala_transfomer_fy(build_number):
         # Concatinate dataframe from the java tests with df1
         df = pd.concat([df, df1] , ignore_index=True)
 
+        # Replace all NaN None in the dataframe
+        df.replace(np.nan, None, inplace=True)
+
         # Create a dictionnary
         nested_dict = {}
         # Go through each row
@@ -118,14 +122,8 @@ def scala_transfomer_fy(build_number):
         # Write the nested dictionary to a JSON file
         with open(f'results-{build_number}.json', 'w') as json_file:
             json.dump(nested_dict, json_file, indent=2)
-        
-        #df.to_json(f'results-{build_number}.json', orient= "table")
 
         print("Scala data transfromation succeeded")
-
-        # The output of this function is the total results file combined with one from the java test function transformer
-        #return df4.to_json(f'results-{build_number}.json')
-
         
     except:
         print("Scala data transformation failed")

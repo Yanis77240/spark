@@ -1,6 +1,7 @@
 # java_test_transformation.py
 
 import pandas as pd
+import numpy as np
 import sys
 import os
 import json
@@ -49,6 +50,7 @@ def java_test_transfomer(build_number):
             df2.drop(columns=['unnecsessary'], inplace= True)
             # Reorder columns
             df2= df2[['Test_group', 'Failed_test']]
+            # Merge the 2 dataframes on their common column Test_group
             df = pd.merge(df, df2, on = 'Test_group', how='outer')
         else:
             # Create the column Failed_test with empty values
@@ -57,7 +59,9 @@ def java_test_transfomer(build_number):
         
         # There shouldn't be any duplicates but if there are we should drop them
         df = df.drop_duplicates()
-        
+        # Replace all NaN with None in the dataframe
+        df.replace(np.nan, None, inplace=True)
+
         # Convert DataFrame to a nested dictionary
         # Create a dictionnary
         nested_dict = {}
