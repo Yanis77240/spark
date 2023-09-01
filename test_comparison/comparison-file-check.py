@@ -26,18 +26,18 @@ if sys.argv[1] != "0":
         # Loop through each element of the json file
         for test_group, values in json_data.items():
             # For each element in the failed_test list
-            for failed_test in values['Failed_tests']:
+            for failed_test in values['failed_list']:
                 # Get the class Test_group and define it as key for value test_group which is the main element of the schema
-                record = {'Test_group': test_group}
+                record = {'test_group': test_group}
                 # Get the attribute values
-                # Update individual attributes
-                record['Succeeded'] = values['attributes']['Succeeded']
-                record['Failed'] = values['attributes']['Failed']
-                record['Skipped'] = values['attributes']['Skipped']
-                record['Pending'] = values['attributes']['Pending']
-                record['Aborted_tests'] = values['attributes']['Aborted_tests']
+                # Update individual test_stats
+                record['succeeded'] = values['test_stats']['succeeded']
+                record['failed'] = values['test_stats']['failed']
+                record['skipped'] = values['test_stats']['skipped']
+                record['pending'] = values['test_stats']['pending']
+                record['aborted'] = values['test_stats']['aborted']
                 # Get the list of failed tests
-                record['Failed_test'] = failed_test
+                record['failed_list'] = failed_test
                 # Append all these elements to the list records
                 records.append(record)
 

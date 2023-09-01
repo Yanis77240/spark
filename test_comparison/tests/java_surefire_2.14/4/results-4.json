@@ -1,0 +1,1930 @@
+{
+  "org.apache.tez.hadoop.shim.TestHadoopShimsLoader": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.client.TestTezClient": {
+    "test_stats": {
+      "succeeded": 23,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.client.TestTezClientUtils": {
+    "test_stats": {
+      "succeeded": 25,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestDAGVerify": {
+    "test_stats": {
+      "succeeded": 36,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestDagTypeConverters": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestTaskLocationHint": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestHistoryLogLevel": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.rpc.TestDAGClient": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.TestATSHttpClient": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.TestTimelineReaderFactory": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestDAGPlan": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestTezConfiguration": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestEntityDescriptor": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.TestDAG": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.api.event.TestCompositeDataMovementEvent": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestJavaOptsChecker": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestRPCUtil": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.security.TestDAGAccessControls": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.security.TestACLManager": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.security.TestTokenCache": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.security.TestACLConfigurationParser": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestReflectionUtils": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestVersionInfo": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestTezYARNUtils": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestTezCommonUtils": {
+    "test_stats": {
+      "succeeded": 17,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.util.TestStopWatch": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.util.TestTezMxBeanResourceCalculator": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.util.TestNumberFormat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.records.TestTezIds": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestAsyncDispatcher": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestTezUtils": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestEnvironmentUpdateUtils": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestAsyncDispatcherConcurrent": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.common.TestTezSharedExecutor": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.TestLogicalIOProcessorRuntimeTask": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.api.impl.TestTaskSpec": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.api.impl.TestTezEvent": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.api.impl.TestProcessorContext": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.TestInputReadyTracker": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.common.resources.TestMemoryDistributor": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.common.objectregistry.TestObjectRegistry": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.task.TestTaskExecution2": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.task.TestContainerExecution": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.task.TestTezTaskRunner2": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.task.TestTaskReporter": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.library.vertexmanager.TestFairShuffleVertexManager": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.library.vertexmanager.TestInputReadyVertexManager": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.library.vertexmanager.TestShuffleVertexManagerBase": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.library.vertexmanager.TestShuffleVertexManager": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestOrderedPartitionedKVEdgeConfig": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestUnorderedKVEdgeConfig": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestUnorderedPartitionedKVOutputConfig": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestUnorderedPartitionedKVEdgeConfig": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestUnorderedKVOutputConfig": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestOrderedGroupedMergedKVInputConfig": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestUnorderedKVInputConfig": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.conf.TestOrderedPartitionedKVOutputConfig": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.api.TestTezRuntimeConfiguration": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.sort.impl.dflt.TestDefaultSorter": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.sort.impl.TestIFile": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.sort.impl.TestPipelinedSorter": {
+    "test_stats": {
+      "succeeded": 29,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.sort.impl.TestTezMerger": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.writers.TestUnorderedPartitionedKVWriter": {
+    "test_stats": {
+      "succeeded": 340,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.TestValuesIterator": {
+    "test_stats": {
+      "succeeded": 45,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.TestFetcher": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.orderedgrouped.TestShuffleInputEventHandlerOrderedGrouped": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.orderedgrouped.TestFetcher": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.orderedgrouped.TestShuffleScheduler": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.orderedgrouped.TestMergeManager": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.orderedgrouped.TestShuffle": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.impl.TestShuffleManager": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.impl.TestSimpleFetchedInputAllocator": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.impl.TestShuffleInputEventHandlerImpl": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.shuffle.TestShuffleUtils": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.TestInputIdentifiers": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.comparator.TestProxyComparator": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.common.readers.TestUnorderedKVReader": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestCartesianProductEdgeManagerPartitioned": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestCartesianProductEdgeManager": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestFairCartesianProductVertexManager": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestCartesianProductVertexManager": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestFairCartesianProductEdgeManager": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestGrouper": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestCartesianProductCombination": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestCartesianProductVertexManagerPartitioned": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.cartesianproduct.TestCartesianProductConfig": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.output.TestUnorderedKVOutput2": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.output.TestOnFileUnorderedKVOutput": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.output.TestOrderedPartitionedKVOutput2": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.output.TestUnorderedPartitionedKVOutput2": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.output.TestOnFileSortedOutput": {
+    "test_stats": {
+      "succeeded": 90,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.input.TestSortedGroupedMergedInput": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.library.input.TestOrderedGroupedKVInput": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.runtime.common.resources.TestWeightedScalingMemoryDistributor": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.http.TestHttpConnection": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.processor.reduce.TestReduceProcessor": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.processor.map.TestMapProcessor": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.common.TestMRInputAMSplitGenerator": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.common.TestMRInputSplitDistributor": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.combine.TestMRCombiner": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.lib.TestKVReadersWithMR": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.output.TestMROutputLegacy": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.output.TestMROutput": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.output.TestMROutputConfigBuilder": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.output.TestMultiMROutput": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.input.TestMultiMRInput": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.input.TestMRInput": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.hadoop.TestConfigTranslationMRToTez": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.hadoop.TestDeprecatedKeys": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.hadoop.TestMRInputHelpers": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.hadoop.TestMRHelpers": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.mapred.split.TestGroupedSplits": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.TestDAGClientHandler": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.rpc.TestDAGClientAMProtocolBlockingPBServerImpl": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.TestDAGClientServer": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.api.client.TestVertexStatusBuilder": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.TestHistoryEventHandler": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.logging.impl.TestHistoryEventJsonConversion": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.TestHistoryEventType": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.events.TestHistoryEventsProtoConversion": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.recovery.TestRecoveryService": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.utils.TestDAGUtils": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.container.TestAMContainerMap": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.container.TestAMContainer": {
+    "test_stats": {
+      "succeeded": 27,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.TestTaskSchedulerWrapper": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.TestTaskSchedulerManager": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.TestLocalTaskScheduler": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.node.TestAMNodeTracker": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.TestContainerReuse": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.TestTezAMRMClient": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.rm.TestLocalTaskSchedulerService": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestDAGAppMaster": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.speculation.legacy.TestDataStatistics": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.TestStateChangeNotifier": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestCommit": {
+    "test_stats": {
+      "succeeded": 31,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestTaskAttempt": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestDAGRecovery": {
+    "test_stats": {
+      "succeeded": 21,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestVertexManager": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestVertexImpl2": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestEdge": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestVertexImpl": {
+    "test_stats": {
+      "succeeded": 99,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestTaskImpl": {
+    "test_stats": {
+      "succeeded": 32,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestDAGImpl": {
+    "test_stats": {
+      "succeeded": 39,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestDAGSchedulerNaturalOrderControlled": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestRootInputVertexManager": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestDAGScheduler": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestImmediateStartVertexManager": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.impl.TestVertexStats": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.TestRootInputInitializerManager": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.dag.app.TestTezTaskCommunicatorManager": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestMemoryWithEvents": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 4,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestTaskCommunicatorManager": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestTaskCommunicatorManager2": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestRecoveryParser": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestSpeculation": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestTaskCommunicatorManager1": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestMockDAGAppMaster": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 3,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.web.TestAMWebController": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestTaskCommunicatorContextImpl": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestTaskCommunicatorWrapper": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.TestPreemption": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.launcher.TestTezLocalCacheManager": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.launcher.TestDeletionTracker": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.launcher.TestContainerLauncherWrapper": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.app.launcher.TestContainerLauncherManager": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.utils.TestTaskSpecificLaunchCmdOption": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.utils.TestSimple2LevelVersionComparator": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestTezJobs": {
+    "test_stats": {
+      "succeeded": 20,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestDAGRecovery2": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestPipelinedShuffle": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestRecovery": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestDAGRecovery": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestFaultTolerance": {
+    "test_stats": {
+      "succeeded": 25,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestTaskErrorsUsingLocalMode": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestAMRecovery": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestExceptionPropagation": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.test.TestSecureShuffle": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 4,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testSecureShuffle[test[sslInCluster:true, resultWithTezSSL:0, resultWithoutTezSSL:1, asyncHttp:false]]",
+      "testSecureShuffle[test[sslInCluster:true, resultWithTezSSL:0, resultWithoutTezSSL:1, asyncHttp:true]]",
+      "testSecureShuffle[test[sslInCluster:false, resultWithTezSSL:1, resultWithoutTezSSL:0, asyncHttp:true]]",
+      "testSecureShuffle[test[sslInCluster:false, resultWithTezSSL:1, resultWithoutTezSSL:0, asyncHttp:false]]"
+    ]
+  },
+  "org.apache.tez.test.TestLocalMode": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.TestMRRJobs": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.mapreduce.TestMRRJobsDAGApi": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.tests.TestExtServicesWithLocalMode": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.tests.TestExternalTezServices": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 2,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.tests.TestExternalTezServicesErrors": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 2,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.logging.ats.TestATSHistoryLoggingService": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.logging.ats.TestHistoryEventTimelineConversion": {
+    "test_stats": {
+      "succeeded": 21,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.logging.ats.TestATSHistoryWithMiniCluster": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.logging.ats.TestTimelineCachePluginImpl": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.dag.history.logging.ats.TestATSV15HistoryLoggingService": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 2,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testNonSessionDomains",
+      "testNonSessionDomainsTestingTest"
+    ]
+  },
+  "org.apache.tez.auxservices.TestShuffleHandlerJobs": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.auxservices.TestShuffleHandler": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.hadoop.shim.TestHadoopShim28Provider": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.tez.hadoop.shim.TestHadoopShim28": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  }
+}

@@ -1,0 +1,2510 @@
+{
+  "org.apache.spark.util.kvstore.InMemoryStoreSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.kvstore.ArrayWrappersSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.kvstore.LevelDBIteratorSuite": {
+    "test_stats": {
+      "succeeded": 38.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.kvstore.InMemoryIteratorSuite": {
+    "test_stats": {
+      "succeeded": 38.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.kvstore.LevelDBTypeInfoSuite": {
+    "test_stats": {
+      "succeeded": 10.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.kvstore.LevelDBSuite": {
+    "test_stats": {
+      "succeeded": 8.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.util.TransportFrameDecoderSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.util.NettyMemoryMetricsSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.util.CryptoUtilsSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.TransportResponseHandlerSuite": {
+    "test_stats": {
+      "succeeded": 8.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.TransportClientFactorySuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.protocol.MessageWithHeaderSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.crypto.AuthEngineSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.crypto.AuthMessagesSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.crypto.AuthIntegrationSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.sasl.SparkSaslSuite": {
+    "test_stats": {
+      "succeeded": 11.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.server.OneForOneStreamManagerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.ProtocolSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.TransportRequestHandlerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.RequestTimeoutIntegrationSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.StreamSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.ChunkFetchIntegrationSuite": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.RpcIntegrationSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.sasl.SaslIntegrationSuite": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.sasl.ShuffleSecretManagerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.RetryingBlockFetcherSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.ExternalShuffleSecuritySuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.ExternalShuffleBlockHandlerSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.ExternalShuffleIntegrationSuite": {
+    "test_stats": {
+      "succeeded": 8.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.ExternalShuffleBlockResolverSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.OneForOneBlockFetcherSuite": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.ExternalShuffleCleanupSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.network.shuffle.BlockTransferMessagesSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.types.UTF8StringSuite": {
+    "test_stats": {
+      "succeeded": 38.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.types.CalendarIntervalSuite": {
+    "test_stats": {
+      "succeeded": 9.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.array.LongArraySuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.PlatformUtilSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.hash.Murmur3_x86_32Suite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.InProcessLauncherSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.LauncherServerSuite": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.CommandBuilderUtilsSuite": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.SparkSubmitCommandBuilderSuite": {
+    "test_stats": {
+      "succeeded": 12.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.ChildProcAppHandleSuite": {
+    "test_stats": {
+      "succeeded": 11.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.SparkSubmitOptionParserSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterRadixSortSuite": {
+    "test_stats": {
+      "succeeded": 13.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite": {
+    "test_stats": {
+      "succeeded": 13.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterRadixSortSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.api.java.OptionalSuite": {
+    "test_stats": {
+      "succeeded": 8.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.io.ReadAheadInputStreamSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.io.NioBufferedInputStreamSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.map.BytesToBytesMapOffHeapSuite": {
+    "test_stats": {
+      "succeeded": 13.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.unsafe.map.BytesToBytesMapOnHeapSuite": {
+    "test_stats": {
+      "succeeded": 13.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.shuffle.sort.PackedRecordPointerSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.shuffle.sort.ShuffleInMemoryRadixSorterSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.shuffle.sort.ShuffleInMemorySorterSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite": {
+    "test_stats": {
+      "succeeded": 25.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.memory.TaskMemoryManagerSuite": {
+    "test_stats": {
+      "succeeded": 10.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.JavaJdbcRDDSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.launcher.SparkLauncherSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.Java8RDDAPISuite": {
+    "test_stats": {
+      "succeeded": 18.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.JavaAPISuite": {
+    "test_stats": {
+      "succeeded": 90.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.JavaSparkContextSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.JavaDurationSuite": {
+    "test_stats": {
+      "succeeded": 11.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.JavaWriteAheadLogSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.JavaMapWithStateSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.JavaReceiverAPISuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.JavaTimeSuite": {
+    "test_stats": {
+      "succeeded": 7.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.streaming.Java8APISuite": {
+    "test_stats": {
+      "succeeded": 26.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.streaming.JavaAPISuite": {
+    "test_stats": {
+      "succeeded": 53.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.streaming.JavaOutputModeSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.streaming.JavaGroupStateTimeoutSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.catalyst.expressions.XXH64Suite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.catalyst.expressions.RowBasedKeyValueBatchSuite": {
+    "test_stats": {
+      "succeeded": 10.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.catalyst.expressions.HiveHasherSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaDatasetAggregatorSuite": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.execution.sort.RecordBinaryComparatorSuite": {
+    "test_stats": {
+      "succeeded": 8.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaDatasetSuite": {
+    "test_stats": {
+      "succeeded": 31.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaBeanWithArraySuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaUDAFSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaDataFrameSuite": {
+    "test_stats": {
+      "succeeded": 21.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaDataFrameReaderWriterSuite": {
+    "test_stats": {
+      "succeeded": 9.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaUDFSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaSaveLoadSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaRowSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.JavaApplySchemaSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "test.org.apache.spark.sql.Java8DatasetAggregatorSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.stat.JavaStatisticsSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.util.JavaMLUtilsSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.fpm.JavaAssociationRulesSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.fpm.JavaPrefixSpanSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.fpm.JavaFPGrowthSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.feature.JavaWord2VecSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.feature.JavaTfIdfSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.clustering.JavaStreamingKMeansSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.clustering.JavaKMeansSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.clustering.JavaLDASuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.clustering.JavaGaussianMixtureSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.clustering.JavaBisectingKMeansSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.evaluation.JavaRankingMetricsSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.recommendation.JavaALSSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.regression.JavaStreamingLinearRegressionSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.regression.JavaLinearRegressionSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.regression.JavaLassoSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.regression.JavaRidgeRegressionSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.regression.JavaIsotonicRegressionSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.linalg.JavaMatricesSuite": {
+    "test_stats": {
+      "succeeded": 6.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.linalg.JavaVectorsSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.linalg.distributed.JavaRowMatrixSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.tree.JavaDecisionTreeSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.classification.JavaStreamingLogisticRegressionSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.classification.JavaNaiveBayesSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.classification.JavaSVMSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.classification.JavaLogisticRegressionSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.mllib.random.JavaRandomRDDsSuite": {
+    "test_stats": {
+      "succeeded": 14.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.stat.JavaSummarizerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.util.JavaDefaultReadWriteSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.param.JavaParamsSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaPolynomialExpansionSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaPCASuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaDCTSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaBucketizerSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaTokenizerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaStringIndexerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaWord2VecSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaVectorIndexerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaVectorAssemblerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaStandardScalerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaVectorSlicerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaStopWordsRemoverSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaNormalizerSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.feature.JavaHashingTFSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.source.libsvm.JavaLibSVMRelationSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.clustering.JavaKMeansSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.tuning.JavaCrossValidatorSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.JavaPipelineSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.attribute.JavaAttributeSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.attribute.JavaAttributeGroupSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.regression.JavaLinearRegressionSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.regression.JavaRandomForestRegressorSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.regression.JavaGBTRegressorSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.regression.JavaDecisionTreeRegressorSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.linalg.JavaSQLDataTypesSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaDecisionTreeClassifierSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaGBTClassifierSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaNaiveBayesSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaMultilayerPerceptronClassifierSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaOneVsRestSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaLogisticRegressionSuite": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.ml.classification.JavaRandomForestClassifierSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.hive.JavaDataFrameSuite": {
+    "test_stats": {
+      "succeeded": 2.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.sql.hive.JavaMetastoreDataSourcesSuite": {
+    "test_stats": {
+      "succeeded": 3.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.kafka010.JavaConsumerStrategySuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.kafka010.JavaLocationStrategySuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.kafka010.JavaDirectKafkaStreamSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.kafka010.JavaKafkaRDDSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.flume.JavaFlumeStreamSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.spark.streaming.flume.JavaFlumePollingStreamSuite": {
+    "test_stats": {
+      "succeeded": 1.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.util.TestReadWriteDiskValidator": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testReadWriteDiskValidator",
+      "testCheckFailures"
+    ]
+  },
+  "org.apache.hadoop.io.compress.TestCompressorDecompressor": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testCompressorDecompressor",
+      "testCompressorDecompressorWithExeedBufferLimit"
+    ]
+  },
+  "org.apache.hadoop.io.compress.snappy.TestSnappyCompressorDecompressor": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testSnappyCompressDecompressInMultiThreads",
+      "testSnappyCompressDecompress"
+    ]
+  },
+  "org.apache.hadoop.security.TestLdapGroupsMapping": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testLdapReadTimeout",
+      "testLdapConnectionTimeout"
+    ]
+  },
+  "org.apache.hadoop.hdfs.TestFileChecksum": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery10",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery12",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery13",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery14",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery15",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery16",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery20",
+      "testStripedFileChecksumWithMissedDataBlocks1",
+      "testStripedFileChecksumWithMissedDataBlocks2",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery8",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery9"
+    ]
+  },
+  "org.apache.hadoop.hdfs.TestFileChecksumCompositeCrc": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery13",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery14",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery15",
+      "testStripedFileChecksumWithMissedDataBlocks1",
+      "testStripedFileChecksumWithMissedDataBlocks2",
+      "testStripedFileChecksumWithMissedDataBlocksRangeQuery3"
+    ]
+  },
+  "org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testRecoverAnyBlocks1",
+      "testRecoverOneDataBlock",
+      "testRecoverOneParityBlock"
+    ]
+  },
+  "org.apache.hadoop.mapred.TestMRTimelineEventHandling": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testMRNewTimelineServiceEventHandling"
+    ]
+  },
+  "org.apache.hadoop.yarn.sls.TestSLSRunner": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testSimulatorRunning[Testing with: SYNTH, org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler, "
+    ]
+  },
+  "assembly": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "core": {
+    "test_stats": {
+      "succeeded": 2096.0,
+      "failed": 2.0,
+      "skipped": 9.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": [
+      "- download remote resource if it is not supported by yarn service *** FAILED ***",
+      "- Testing test test core *** FAILED ***"
+    ]
+  },
+  "examples": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "graphx": {
+    "test_stats": {
+      "succeeded": 110.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "launcher": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "mllib-local": {
+    "test_stats": {
+      "succeeded": 84.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "mllib": {
+    "test_stats": {
+      "succeeded": 1329.0,
+      "failed": 0.0,
+      "skipped": 7.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "repl": {
+    "test_stats": {
+      "succeeded": 35.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "streaming": {
+    "test_stats": {
+      "succeeded": 334.0,
+      "failed": 0.0,
+      "skipped": 1.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "tools": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/kvstore": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/network-common": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/network-shuffle": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/network-yarn": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/sketch": {
+    "test_stats": {
+      "succeeded": 29.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/tags": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "common/unsafe": {
+    "test_stats": {
+      "succeeded": 19.0,
+      "failed": 0.0,
+      "skipped": 1.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "external/flume-assembly": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "external/flume-sink": {
+    "test_stats": {
+      "succeeded": 5.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "external/flume": {
+    "test_stats": {
+      "succeeded": 4.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "external/kafka-0-10-assembly": {
+    "test_stats": {
+      "succeeded": 0.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "external/kafka-0-10-sql": {
+    "test_stats": {
+      "succeeded": 105.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "external/kafka-0-10": {
+    "test_stats": {
+      "succeeded": 15.0,
+      "failed": 0.0,
+      "skipped": 0.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "sql/catalyst": {
+    "test_stats": {
+      "succeeded": 2611.0,
+      "failed": 1.0,
+      "skipped": 2.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": [
+      "- daysToMillis and millisToDays *** FAILED ***"
+    ]
+  },
+  "sql/core": {
+    "test_stats": {
+      "succeeded": 4109.0,
+      "failed": 1.0,
+      "skipped": 59.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": [
+      "- SPARK-6330 regression test *** FAILED ***"
+    ]
+  },
+  "sql/hive": {
+    "test_stats": {
+      "succeeded": 2343.0,
+      "failed": 511.0,
+      "skipped": 595.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": [
+      "- SPARK-22745 - read Hive's statistics for partition *** FAILED ***",
+      "- SPARK-22745 - testing test test sql hive *** FAILED ***",
+      "- alter table rename after analyze table *** FAILED ***",
+      "- alter table SET TBLPROPERTIES after analyze table *** FAILED ***",
+      "- alter table UNSET TBLPROPERTIES after analyze table *** FAILED ***",
+      "- success sanity check *** FAILED ***",
+      "- hadoop configuration preserved *** FAILED ***",
+      "- 0.12: create client *** FAILED ***",
+      "- 0.12: createDatabase *** FAILED ***",
+      "- 0.12: createDatabase with null description *** FAILED ***",
+      "- 0.12: setCurrentDatabase *** FAILED ***",
+      "- 0.12: getDatabase *** FAILED ***",
+      "- 0.12: databaseExists *** FAILED ***",
+      "- 0.12: listDatabases *** FAILED ***",
+      "- 0.12: alterDatabase *** FAILED ***",
+      "- 0.12: dropDatabase *** FAILED ***",
+      "- 0.12: createTable *** FAILED ***",
+      "- 0.12: loadTable *** FAILED ***",
+      "- 0.12: tableExists *** FAILED ***",
+      "- 0.12: getTable *** FAILED ***",
+      "- 0.12: getTableOption *** FAILED ***",
+      "- 0.12: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 0.12: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 0.12: alterTable - rename *** FAILED ***",
+      "- 0.12: alterTable - change database *** FAILED ***",
+      "- 0.12: alterTable - change database and table names *** FAILED ***",
+      "- 0.12: listTables(database) *** FAILED ***",
+      "- 0.12: listTables(database, pattern) *** FAILED ***",
+      "- 0.12: dropTable *** FAILED ***",
+      "- 0.12: sql create partitioned table *** FAILED ***",
+      "- 0.12: createPartitions *** FAILED ***",
+      "- 0.12: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 0.12: getPartitions(catalogTable) *** FAILED ***",
+      "- 0.12: getPartitionsByFilter *** FAILED ***",
+      "- 0.12: getPartition *** FAILED ***",
+      "- 0.12: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 0.12: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 0.12: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 0.12: loadPartition *** FAILED ***",
+      "- 0.12: loadDynamicPartitions *** FAILED ***",
+      "- 0.12: renamePartitions *** FAILED ***",
+      "- 0.12: alterPartitions *** FAILED ***",
+      "- 0.12: dropPartitions *** FAILED ***",
+      "- 0.12: createFunction *** FAILED ***",
+      "- 0.12: functionExists *** FAILED ***",
+      "- 0.12: renameFunction *** FAILED ***",
+      "- 0.12: alterFunction *** FAILED ***",
+      "- 0.12: getFunction *** FAILED ***",
+      "- 0.12: getFunctionOption *** FAILED ***",
+      "- 0.12: listFunctions *** FAILED ***",
+      "- 0.12: dropFunction *** FAILED ***",
+      "- 0.12: sql set command *** FAILED ***",
+      "- 0.12: sql create index and reset *** FAILED ***",
+      "- 0.12: version *** FAILED ***",
+      "- 0.12: getConf *** FAILED ***",
+      "- 0.12: setOut *** FAILED ***",
+      "- 0.12: setInfo *** FAILED ***",
+      "- 0.12: setError *** FAILED ***",
+      "- 0.12: newSession *** FAILED ***",
+      "- 0.12: withHiveState and addJar *** FAILED ***",
+      "- 0.12: reset *** FAILED ***",
+      "- 0.12: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 0.12: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 0.12: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 0.12: CTAS for managed data source tables *** FAILED ***",
+      "- 0.12: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 0.12: read avro file containing decimal *** FAILED ***",
+      "- 0.12: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 0.13: create client *** FAILED ***",
+      "- 0.13: createDatabase *** FAILED ***",
+      "- 0.13: createDatabase with null description *** FAILED ***",
+      "- 0.13: setCurrentDatabase *** FAILED ***",
+      "- 0.13: getDatabase *** FAILED ***",
+      "- 0.13: databaseExists *** FAILED ***",
+      "- 0.13: listDatabases *** FAILED ***",
+      "- 0.13: alterDatabase *** FAILED ***",
+      "- 0.13: dropDatabase *** FAILED ***",
+      "- 0.13: createTable *** FAILED ***",
+      "- 0.13: loadTable *** FAILED ***",
+      "- 0.13: tableExists *** FAILED ***",
+      "- 0.13: getTable *** FAILED ***",
+      "- 0.13: getTableOption *** FAILED ***",
+      "- 0.13: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 0.13: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 0.13: alterTable - rename *** FAILED ***",
+      "- 0.13: alterTable - change database *** FAILED ***",
+      "- 0.13: alterTable - change database and table names *** FAILED ***",
+      "- 0.13: listTables(database) *** FAILED ***",
+      "- 0.13: listTables(database, pattern) *** FAILED ***",
+      "- 0.13: dropTable *** FAILED ***",
+      "- 0.13: sql create partitioned table *** FAILED ***",
+      "- 0.13: createPartitions *** FAILED ***",
+      "- 0.13: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 0.13: getPartitions(catalogTable) *** FAILED ***",
+      "- 0.13: getPartitionsByFilter *** FAILED ***",
+      "- 0.13: getPartition *** FAILED ***",
+      "- 0.13: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 0.13: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 0.13: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 0.13: loadPartition *** FAILED ***",
+      "- 0.13: loadDynamicPartitions *** FAILED ***",
+      "- 0.13: renamePartitions *** FAILED ***",
+      "- 0.13: alterPartitions *** FAILED ***",
+      "- 0.13: dropPartitions *** FAILED ***",
+      "- 0.13: createFunction *** FAILED ***",
+      "- 0.13: functionExists *** FAILED ***",
+      "- 0.13: renameFunction *** FAILED ***",
+      "- 0.13: alterFunction *** FAILED ***",
+      "- 0.13: getFunction *** FAILED ***",
+      "- 0.13: getFunctionOption *** FAILED ***",
+      "- 0.13: listFunctions *** FAILED ***",
+      "- 0.13: dropFunction *** FAILED ***",
+      "- 0.13: sql set command *** FAILED ***",
+      "- 0.13: sql create index and reset *** FAILED ***",
+      "- 0.13: version *** FAILED ***",
+      "- 0.13: getConf *** FAILED ***",
+      "- 0.13: setOut *** FAILED ***",
+      "- 0.13: setInfo *** FAILED ***",
+      "- 0.13: setError *** FAILED ***",
+      "- 0.13: newSession *** FAILED ***",
+      "- 0.13: withHiveState and addJar *** FAILED ***",
+      "- 0.13: reset *** FAILED ***",
+      "- 0.13: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 0.13: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 0.13: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 0.13: CTAS for managed data source tables *** FAILED ***",
+      "- 0.13: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 0.13: read avro file containing decimal *** FAILED ***",
+      "- 0.13: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 0.14: create client *** FAILED ***",
+      "- 0.14: createDatabase *** FAILED ***",
+      "- 0.14: createDatabase with null description *** FAILED ***",
+      "- 0.14: setCurrentDatabase *** FAILED ***",
+      "- 0.14: getDatabase *** FAILED ***",
+      "- 0.14: databaseExists *** FAILED ***",
+      "- 0.14: listDatabases *** FAILED ***",
+      "- 0.14: alterDatabase *** FAILED ***",
+      "- 0.14: dropDatabase *** FAILED ***",
+      "- 0.14: createTable *** FAILED ***",
+      "- 0.14: loadTable *** FAILED ***",
+      "- 0.14: tableExists *** FAILED ***",
+      "- 0.14: getTable *** FAILED ***",
+      "- 0.14: getTableOption *** FAILED ***",
+      "- 0.14: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 0.14: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 0.14: alterTable - rename *** FAILED ***",
+      "- 0.14: alterTable - change database *** FAILED ***",
+      "- 0.14: alterTable - change database and table names *** FAILED ***",
+      "- 0.14: listTables(database) *** FAILED ***",
+      "- 0.14: listTables(database, pattern) *** FAILED ***",
+      "- 0.14: dropTable *** FAILED ***",
+      "- 0.14: sql create partitioned table *** FAILED ***",
+      "- 0.14: createPartitions *** FAILED ***",
+      "- 0.14: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 0.14: getPartitions(catalogTable) *** FAILED ***",
+      "- 0.14: getPartitionsByFilter *** FAILED ***",
+      "- 0.14: getPartition *** FAILED ***",
+      "- 0.14: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 0.14: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 0.14: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 0.14: loadPartition *** FAILED ***",
+      "- 0.14: loadDynamicPartitions *** FAILED ***",
+      "- 0.14: renamePartitions *** FAILED ***",
+      "- 0.14: alterPartitions *** FAILED ***",
+      "- 0.14: dropPartitions *** FAILED ***",
+      "- 0.14: createFunction *** FAILED ***",
+      "- 0.14: functionExists *** FAILED ***",
+      "- 0.14: renameFunction *** FAILED ***",
+      "- 0.14: alterFunction *** FAILED ***",
+      "- 0.14: getFunction *** FAILED ***",
+      "- 0.14: getFunctionOption *** FAILED ***",
+      "- 0.14: listFunctions *** FAILED ***",
+      "- 0.14: dropFunction *** FAILED ***",
+      "- 0.14: sql set command *** FAILED ***",
+      "- 0.14: sql create index and reset *** FAILED ***",
+      "- 0.14: version *** FAILED ***",
+      "- 0.14: getConf *** FAILED ***",
+      "- 0.14: setOut *** FAILED ***",
+      "- 0.14: setInfo *** FAILED ***",
+      "- 0.14: setError *** FAILED ***",
+      "- 0.14: newSession *** FAILED ***",
+      "- 0.14: withHiveState and addJar *** FAILED ***",
+      "- 0.14: reset *** FAILED ***",
+      "- 0.14: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 0.14: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 0.14: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 0.14: CTAS for managed data source tables *** FAILED ***",
+      "- 0.14: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 0.14: read avro file containing decimal *** FAILED ***",
+      "- 0.14: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 1.0: create client *** FAILED ***",
+      "- 1.0: createDatabase *** FAILED ***",
+      "- 1.0: createDatabase with null description *** FAILED ***",
+      "- 1.0: setCurrentDatabase *** FAILED ***",
+      "- 1.0: getDatabase *** FAILED ***",
+      "- 1.0: databaseExists *** FAILED ***",
+      "- 1.0: listDatabases *** FAILED ***",
+      "- 1.0: alterDatabase *** FAILED ***",
+      "- 1.0: dropDatabase *** FAILED ***",
+      "- 1.0: createTable *** FAILED ***",
+      "- 1.0: loadTable *** FAILED ***",
+      "- 1.0: tableExists *** FAILED ***",
+      "- 1.0: getTable *** FAILED ***",
+      "- 1.0: getTableOption *** FAILED ***",
+      "- 1.0: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 1.0: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 1.0: alterTable - rename *** FAILED ***",
+      "- 1.0: alterTable - change database *** FAILED ***",
+      "- 1.0: alterTable - change database and table names *** FAILED ***",
+      "- 1.0: listTables(database) *** FAILED ***",
+      "- 1.0: listTables(database, pattern) *** FAILED ***",
+      "- 1.0: dropTable *** FAILED ***",
+      "- 1.0: sql create partitioned table *** FAILED ***",
+      "- 1.0: createPartitions *** FAILED ***",
+      "- 1.0: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 1.0: getPartitions(catalogTable) *** FAILED ***",
+      "- 1.0: getPartitionsByFilter *** FAILED ***",
+      "- 1.0: getPartition *** FAILED ***",
+      "- 1.0: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 1.0: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 1.0: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 1.0: loadPartition *** FAILED ***",
+      "- 1.0: loadDynamicPartitions *** FAILED ***",
+      "- 1.0: renamePartitions *** FAILED ***",
+      "- 1.0: alterPartitions *** FAILED ***",
+      "- 1.0: dropPartitions *** FAILED ***",
+      "- 1.0: createFunction *** FAILED ***",
+      "- 1.0: functionExists *** FAILED ***",
+      "- 1.0: renameFunction *** FAILED ***",
+      "- 1.0: alterFunction *** FAILED ***",
+      "- 1.0: getFunction *** FAILED ***",
+      "- 1.0: getFunctionOption *** FAILED ***",
+      "- 1.0: listFunctions *** FAILED ***",
+      "- 1.0: dropFunction *** FAILED ***",
+      "- 1.0: sql set command *** FAILED ***",
+      "- 1.0: sql create index and reset *** FAILED ***",
+      "- 1.0: version *** FAILED ***",
+      "- 1.0: getConf *** FAILED ***",
+      "- 1.0: setOut *** FAILED ***",
+      "- 1.0: setInfo *** FAILED ***",
+      "- 1.0: setError *** FAILED ***",
+      "- 1.0: newSession *** FAILED ***",
+      "- 1.0: withHiveState and addJar *** FAILED ***",
+      "- 1.0: reset *** FAILED ***",
+      "- 1.0: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 1.0: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 1.0: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 1.0: CTAS for managed data source tables *** FAILED ***",
+      "- 1.0: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 1.0: read avro file containing decimal *** FAILED ***",
+      "- 1.0: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 1.1: create client *** FAILED ***",
+      "- 1.1: createDatabase *** FAILED ***",
+      "- 1.1: createDatabase with null description *** FAILED ***",
+      "- 1.1: setCurrentDatabase *** FAILED ***",
+      "- 1.1: getDatabase *** FAILED ***",
+      "- 1.1: databaseExists *** FAILED ***",
+      "- 1.1: listDatabases *** FAILED ***",
+      "- 1.1: alterDatabase *** FAILED ***",
+      "- 1.1: dropDatabase *** FAILED ***",
+      "- 1.1: createTable *** FAILED ***",
+      "- 1.1: loadTable *** FAILED ***",
+      "- 1.1: tableExists *** FAILED ***",
+      "- 1.1: getTable *** FAILED ***",
+      "- 1.1: getTableOption *** FAILED ***",
+      "- 1.1: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 1.1: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 1.1: alterTable - rename *** FAILED ***",
+      "- 1.1: alterTable - change database *** FAILED ***",
+      "- 1.1: alterTable - change database and table names *** FAILED ***",
+      "- 1.1: listTables(database) *** FAILED ***",
+      "- 1.1: listTables(database, pattern) *** FAILED ***",
+      "- 1.1: dropTable *** FAILED ***",
+      "- 1.1: sql create partitioned table *** FAILED ***",
+      "- 1.1: createPartitions *** FAILED ***",
+      "- 1.1: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 1.1: getPartitions(catalogTable) *** FAILED ***",
+      "- 1.1: getPartitionsByFilter *** FAILED ***",
+      "- 1.1: getPartition *** FAILED ***",
+      "- 1.1: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 1.1: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 1.1: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 1.1: loadPartition *** FAILED ***",
+      "- 1.1: loadDynamicPartitions *** FAILED ***",
+      "- 1.1: renamePartitions *** FAILED ***",
+      "- 1.1: alterPartitions *** FAILED ***",
+      "- 1.1: dropPartitions *** FAILED ***",
+      "- 1.1: createFunction *** FAILED ***",
+      "- 1.1: functionExists *** FAILED ***",
+      "- 1.1: renameFunction *** FAILED ***",
+      "- 1.1: alterFunction *** FAILED ***",
+      "- 1.1: getFunction *** FAILED ***",
+      "- 1.1: getFunctionOption *** FAILED ***",
+      "- 1.1: listFunctions *** FAILED ***",
+      "- 1.1: dropFunction *** FAILED ***",
+      "- 1.1: sql set command *** FAILED ***",
+      "- 1.1: sql create index and reset *** FAILED ***",
+      "- 1.1: version *** FAILED ***",
+      "- 1.1: getConf *** FAILED ***",
+      "- 1.1: setOut *** FAILED ***",
+      "- 1.1: setInfo *** FAILED ***",
+      "- 1.1: setError *** FAILED ***",
+      "- 1.1: newSession *** FAILED ***",
+      "- 1.1: withHiveState and addJar *** FAILED ***",
+      "- 1.1: reset *** FAILED ***",
+      "- 1.1: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 1.1: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 1.1: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 1.1: CTAS for managed data source tables *** FAILED ***",
+      "- 1.1: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 1.1: read avro file containing decimal *** FAILED ***",
+      "- 1.1: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 1.2: create client *** FAILED ***",
+      "- 1.2: createDatabase *** FAILED ***",
+      "- 1.2: createDatabase with null description *** FAILED ***",
+      "- 1.2: setCurrentDatabase *** FAILED ***",
+      "- 1.2: getDatabase *** FAILED ***",
+      "- 1.2: databaseExists *** FAILED ***",
+      "- 1.2: listDatabases *** FAILED ***",
+      "- 1.2: alterDatabase *** FAILED ***",
+      "- 1.2: dropDatabase *** FAILED ***",
+      "- 1.2: createTable *** FAILED ***",
+      "- 1.2: loadTable *** FAILED ***",
+      "- 1.2: tableExists *** FAILED ***",
+      "- 1.2: getTable *** FAILED ***",
+      "- 1.2: getTableOption *** FAILED ***",
+      "- 1.2: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 1.2: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 1.2: alterTable - rename *** FAILED ***",
+      "- 1.2: alterTable - change database *** FAILED ***",
+      "- 1.2: alterTable - change database and table names *** FAILED ***",
+      "- 1.2: listTables(database) *** FAILED ***",
+      "- 1.2: listTables(database, pattern) *** FAILED ***",
+      "- 1.2: dropTable *** FAILED ***",
+      "- 1.2: sql create partitioned table *** FAILED ***",
+      "- 1.2: createPartitions *** FAILED ***",
+      "- 1.2: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 1.2: getPartitions(catalogTable) *** FAILED ***",
+      "- 1.2: getPartitionsByFilter *** FAILED ***",
+      "- 1.2: getPartition *** FAILED ***",
+      "- 1.2: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 1.2: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 1.2: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 1.2: loadPartition *** FAILED ***",
+      "- 1.2: loadDynamicPartitions *** FAILED ***",
+      "- 1.2: renamePartitions *** FAILED ***",
+      "- 1.2: alterPartitions *** FAILED ***",
+      "- 1.2: dropPartitions *** FAILED ***",
+      "- 1.2: createFunction *** FAILED ***",
+      "- 1.2: functionExists *** FAILED ***",
+      "- 1.2: renameFunction *** FAILED ***",
+      "- 1.2: alterFunction *** FAILED ***",
+      "- 1.2: getFunction *** FAILED ***",
+      "- 1.2: getFunctionOption *** FAILED ***",
+      "- 1.2: listFunctions *** FAILED ***",
+      "- 1.2: dropFunction *** FAILED ***",
+      "- 1.2: sql set command *** FAILED ***",
+      "- 1.2: sql create index and reset *** FAILED ***",
+      "- 1.2: version *** FAILED ***",
+      "- 1.2: getConf *** FAILED ***",
+      "- 1.2: setOut *** FAILED ***",
+      "- 1.2: setInfo *** FAILED ***",
+      "- 1.2: setError *** FAILED ***",
+      "- 1.2: newSession *** FAILED ***",
+      "- 1.2: withHiveState and addJar *** FAILED ***",
+      "- 1.2: reset *** FAILED ***",
+      "- 1.2: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 1.2: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 1.2: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 1.2: CTAS for managed data source tables *** FAILED ***",
+      "- 1.2: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 1.2: read avro file containing decimal *** FAILED ***",
+      "- 1.2: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 2.0: create client *** FAILED ***",
+      "- 2.0: createDatabase *** FAILED ***",
+      "- 2.0: createDatabase with null description *** FAILED ***",
+      "- 2.0: setCurrentDatabase *** FAILED ***",
+      "- 2.0: getDatabase *** FAILED ***",
+      "- 2.0: databaseExists *** FAILED ***",
+      "- 2.0: listDatabases *** FAILED ***",
+      "- 2.0: alterDatabase *** FAILED ***",
+      "- 2.0: dropDatabase *** FAILED ***",
+      "- 2.0: createTable *** FAILED ***",
+      "- 2.0: loadTable *** FAILED ***",
+      "- 2.0: tableExists *** FAILED ***",
+      "- 2.0: getTable *** FAILED ***",
+      "- 2.0: getTableOption *** FAILED ***",
+      "- 2.0: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 2.0: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 2.0: alterTable - rename *** FAILED ***",
+      "- 2.0: alterTable - change database *** FAILED ***",
+      "- 2.0: alterTable - change database and table names *** FAILED ***",
+      "- 2.0: listTables(database) *** FAILED ***",
+      "- 2.0: listTables(database, pattern) *** FAILED ***",
+      "- 2.0: dropTable *** FAILED ***",
+      "- 2.0: sql create partitioned table *** FAILED ***",
+      "- 2.0: createPartitions *** FAILED ***",
+      "- 2.0: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 2.0: getPartitions(catalogTable) *** FAILED ***",
+      "- 2.0: getPartitionsByFilter *** FAILED ***",
+      "- 2.0: getPartition *** FAILED ***",
+      "- 2.0: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 2.0: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 2.0: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 2.0: loadPartition *** FAILED ***",
+      "- 2.0: loadDynamicPartitions *** FAILED ***",
+      "- 2.0: renamePartitions *** FAILED ***",
+      "- 2.0: alterPartitions *** FAILED ***",
+      "- 2.0: dropPartitions *** FAILED ***",
+      "- 2.0: createFunction *** FAILED ***",
+      "- 2.0: functionExists *** FAILED ***",
+      "- 2.0: renameFunction *** FAILED ***",
+      "- 2.0: alterFunction *** FAILED ***",
+      "- 2.0: getFunction *** FAILED ***",
+      "- 2.0: getFunctionOption *** FAILED ***",
+      "- 2.0: listFunctions *** FAILED ***",
+      "- 2.0: dropFunction *** FAILED ***",
+      "- 2.0: sql set command *** FAILED ***",
+      "- 2.0: sql create index and reset *** FAILED ***",
+      "- 2.0: version *** FAILED ***",
+      "- 2.0: getConf *** FAILED ***",
+      "- 2.0: setOut *** FAILED ***",
+      "- 2.0: setInfo *** FAILED ***",
+      "- 2.0: setError *** FAILED ***",
+      "- 2.0: newSession *** FAILED ***",
+      "- 2.0: withHiveState and addJar *** FAILED ***",
+      "- 2.0: reset *** FAILED ***",
+      "- 2.0: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 2.0: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 2.0: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 2.0: CTAS for managed data source tables *** FAILED ***",
+      "- 2.0: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 2.0: read avro file containing decimal *** FAILED ***",
+      "- 2.0: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- 2.1: create client *** FAILED ***",
+      "- 2.1: createDatabase *** FAILED ***",
+      "- 2.1: createDatabase with null description *** FAILED ***",
+      "- 2.1: setCurrentDatabase *** FAILED ***",
+      "- 2.1: getDatabase *** FAILED ***",
+      "- 2.1: databaseExists *** FAILED ***",
+      "- 2.1: listDatabases *** FAILED ***",
+      "- 2.1: alterDatabase *** FAILED ***",
+      "- 2.1: dropDatabase *** FAILED ***",
+      "- 2.1: createTable *** FAILED ***",
+      "- 2.1: loadTable *** FAILED ***",
+      "- 2.1: tableExists *** FAILED ***",
+      "- 2.1: getTable *** FAILED ***",
+      "- 2.1: getTableOption *** FAILED ***",
+      "- 2.1: alterTable(table: CatalogTable) *** FAILED ***",
+      "- 2.1: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",
+      "- 2.1: alterTable - rename *** FAILED ***",
+      "- 2.1: alterTable - change database *** FAILED ***",
+      "- 2.1: alterTable - change database and table names *** FAILED ***",
+      "- 2.1: listTables(database) *** FAILED ***",
+      "- 2.1: listTables(database, pattern) *** FAILED ***",
+      "- 2.1: dropTable *** FAILED ***",
+      "- 2.1: sql create partitioned table *** FAILED ***",
+      "- 2.1: createPartitions *** FAILED ***",
+      "- 2.1: getPartitionNames(catalogTable) *** FAILED ***",
+      "- 2.1: getPartitions(catalogTable) *** FAILED ***",
+      "- 2.1: getPartitionsByFilter *** FAILED ***",
+      "- 2.1: getPartition *** FAILED ***",
+      "- 2.1: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",
+      "- 2.1: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",
+      "- 2.1: getPartitions(db: String, table: String) *** FAILED ***",
+      "- 2.1: loadPartition *** FAILED ***",
+      "- 2.1: loadDynamicPartitions *** FAILED ***",
+      "- 2.1: renamePartitions *** FAILED ***",
+      "- 2.1: alterPartitions *** FAILED ***",
+      "- 2.1: dropPartitions *** FAILED ***",
+      "- 2.1: createFunction *** FAILED ***",
+      "- 2.1: functionExists *** FAILED ***",
+      "- 2.1: renameFunction *** FAILED ***",
+      "- 2.1: alterFunction *** FAILED ***",
+      "- 2.1: getFunction *** FAILED ***",
+      "- 2.1: getFunctionOption *** FAILED ***",
+      "- 2.1: listFunctions *** FAILED ***",
+      "- 2.1: dropFunction *** FAILED ***",
+      "- 2.1: sql set command *** FAILED ***",
+      "- 2.1: sql create index and reset *** FAILED ***",
+      "- 2.1: version *** FAILED ***",
+      "- 2.1: getConf *** FAILED ***",
+      "- 2.1: setOut *** FAILED ***",
+      "- 2.1: setInfo *** FAILED ***",
+      "- 2.1: setError *** FAILED ***",
+      "- 2.1: newSession *** FAILED ***",
+      "- 2.1: withHiveState and addJar *** FAILED ***",
+      "- 2.1: reset *** FAILED ***",
+      "- 2.1: CREATE TABLE AS SELECT *** FAILED ***",
+      "- 2.1: Delete the temporary staging directory and files after each insert *** FAILED ***",
+      "- 2.1: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***",
+      "- 2.1: CTAS for managed data source tables *** FAILED ***",
+      "- 2.1: Decimal support of Avro Hive serde *** FAILED ***",
+      "- 2.1: read avro file containing decimal *** FAILED ***",
+      "- 2.1: SPARK-17920: Insert into/overwrite avro table *** FAILED ***",
+      "- SPARK-18355 Read data from a hive table with a new column - orc *** FAILED ***",
+      "- SPARK-18355 Read data from a hive table with a new column - parquet *** FAILED ***",
+      "- create Hive-serde table and view with unicode columns and comment *** FAILED ***",
+      "- basic DDL using locale tr - caseSensitive true *** FAILED ***",
+      "- SPARK-21617: ALTER TABLE for non-compatible DataSource tables *** FAILED ***",
+      "- SPARK-21617: ALTER TABLE for Hive-compatible DataSource tables *** FAILED ***",
+      "- SPARK-21617: ALTER TABLE for Hive tables *** FAILED ***",
+      "- SPARK-21617: ALTER TABLE with incompatible schema on Hive-compatible table *** FAILED ***",
+      "- shaded Protobuf *** FAILED ***",
+      "- Forbidden Dependencies *** FAILED ***",
+      "- Read/Write Hive PARQUET serde table *** FAILED ***",
+      "- Read/Write Hive ORC serde table *** FAILED ***",
+      "- SPARK-19459/SPARK-18220: read char/varchar column written by Hive *** FAILED ***",
+      "- SPARK-8020: set sql conf in spark conf *** FAILED ***",
+      "- SPARK-9757 Persist Parquet relation with decimal column *** FAILED ***",
+      "- SPARK-16901: set javax.jdo.option.ConnectionURL *** FAILED ***"
+    ]
+  },
+  "sql/hive-thriftserver": {
+    "test_stats": {
+      "succeeded": 40.0,
+      "failed": 0.0,
+      "skipped": 2.0,
+      "pending": 0.0,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "resource-managers/yarn": {
+    "test_stats": {
+      "succeeded": null,
+      "failed": null,
+      "skipped": null,
+      "pending": null,
+      "aborted": true
+    },
+    "failed_list": []
+  }
+}

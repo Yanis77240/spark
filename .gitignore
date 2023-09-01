@@ -76,7 +76,7 @@ unit-tests.log
 work/
 
 # the test output
-test_comparison/output.txt
+output.txt
 
 # amputated Jenkinsfile
 jenkinsfile
