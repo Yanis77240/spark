@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output=$(../../../decision.sh)
+output=$(../../../src/decision.sh)
 
 if [ "$output" == "No new errors in the tests." ]; then
     echo "Assertion failed."
