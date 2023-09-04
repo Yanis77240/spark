@@ -8,6 +8,8 @@ The function below allows the user to compare failed tests of the current run wi
 
 The following function works only when Maven runs tests executed by the surefire plugin which are tests written in Java as well as Scala-tests executed by the scalatest plugin and where the output display has the same style as the maven-surefire-plugin version 2.14.1, 2.20.0 or 3.0.0M.
 
+The Python functions work with Python >= 3.6. The code varies a little wether you use Python 3.6 or a version superior to 3.9. Go to the `scala_tranformer.py` and concerning the setting of `None` values for missing values and the boolean transformation of the `aborted` column, uncomment the commands for the Python version you have and comment the other one. The tdp-builder image uses python 3.6 so the corresponding commands are used if not modified.
+
 ## How to integrate the function into the project
 
 1. Paste the folder `test_comparison` at the root of the project in the github repository.

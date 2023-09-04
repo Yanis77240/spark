@@ -5,6 +5,7 @@ import numpy as np
 import sys
 import os
 import json
+import math
 
 def scala_transfomer_fy(build_number):
     """
@@ -107,11 +108,17 @@ def scala_transfomer_fy(build_number):
             # Concatinate dataframe from the java tests with df1
             df = pd.concat([df, df1] , ignore_index=True)
 
+            # For Python >= 3.9 
             # Replace all NaN None in the dataframe
             df.replace(np.nan, None, inplace=True)
-
             # Make sure aborted column is of type boolean after the merge
             df['aborted'] = df['aborted'].astype(bool)
+
+            # For Python == 3.6
+            # Replace all NaN None in the dataframe
+            #df = df.where(pd.notna(df), None)
+            # Make sure aborted column is of type boolean after the merge
+            #df['aborted'] = df['aborted'].apply(lambda x: True if x=="*** RUN ABORTED ***" else False)
             
             # Create a dictionnary
             nested_dict = {}
