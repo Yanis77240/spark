@@ -46,8 +46,6 @@ def scala_transfomer_fy(build_number):
             # Define the dataframe
             df = pd.DataFrame(records)
 
-            print(df)
-
             # Read the scala-end-results.txt file if it has some input in it
             if os.path.getsize('scala-end-results.txt') > 1:
                 # Read the scala-end-results.txt file
@@ -106,10 +104,8 @@ def scala_transfomer_fy(build_number):
                 df1["failed_list"] = None
                 print("No scala test errors")
 
-            print(df1)
             # Concatinate dataframe from the java tests with df1
             df = pd.concat([df, df1] , ignore_index=True)
-            print(df)
 
             # Replace all NaN None in the dataframe
             df.replace(np.nan, None, inplace=True)
