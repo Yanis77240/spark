@@ -6,7 +6,7 @@ The function below allows the user to compare failed tests of the current run wi
 
 ## Scope of the function
 
-The following function works only when Maven runs tests executed by the surefire plugin which are tests written in Java as well as Scala-tests executed by the scalatest plugin and where the output display has the same style as the maven-surefire-plugin version 2.21.0. Older versions such as 2.14.1 have got another output display and an adapted version of this function must be used.
+The following function works only when Maven runs tests executed by the surefire plugin which are tests written in Java as well as Scala-tests executed by the scalatest plugin and where the output display has the same style as the maven-surefire-plugin version 2.14.1, 2.20.0 or 3.0.0M.
 
 ## How to integrate the function into the project
 
@@ -16,13 +16,13 @@ The following function works only when Maven runs tests executed by the surefire
 
 ```groovy
 stage('Chose comparison') {
-    withEnv(["file=${input message: 'Select file in http://10.10.10.11:30000/repository/java-test-reports/', parameters: [string('number of results file')]}"]) {
+    withEnv(["file=${input message: 'Select file in http://10.10.10.11:30000/repository/scala-test-reports/', parameters: [string('number of results file')]}"]) {
         withEnv(["number=${currentBuild.number}"]) {
             sh '''
             cd test_comparison
             curl -v http://path_to_the_project_results_directory/${file} > ${file}
-            python3 comparison-file-check.py ${file}
-            echo "python3 main.py ${number} ${file}" > transformation.sh
+            python3 src/python/comparison-file-check.py ${file}
+            echo "python3 src/python/main.py {surefire-version} ${number} ${file}" > transformation.sh
             chmod 777 transformation.sh
             '''
         }
@@ -38,30 +38,20 @@ stage('Test') {
     withCredentials([usernamePassword(credentialsId: '4b87bd68-ad4c-11ed-afa1-0242ac120002', passwordVariable: 'pass', usernameVariable: 'user')]) {
         withEnv(["number=${currentBuild.number}"]) {
             /* Perform the tests and the surefire reporting*/
-            sh '''
-            mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --batch-mode --fail-never -Dstyle.color=never | tee output.txt
-            '''
-            /* extract the scalatest-plugin data and java-test data output and remove all color signs */
-            sh script: $/
-            # Generate text file with all failed scala tests without any colors
-            grep -F --color=never --no-group-separator "*** FAILED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-tests.txt
-            # Generate text file with all Aborted modules without any colors
-            grep -E --color=never --no-group-separator "*** RUN ABORTED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/aborted-tests.txt
-            # Generate text file with all scala test statistics without any colors
-            grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-end-results.txt
-            # Create CVS file with following titles as header
-            echo "Tests_run, Failures, Errors, Skipped, Test_group" > test_comparison/output-tests.csv
-            # Grep all Java test statistics in CSV file
-            grep -E --color=never '(Failures:.*Errors:.*Skipped:.*Time elapsed:)' output.txt >> test_comparison/output-tests.csv
-            # Generate text file with all failed Java tests without any colors
-            grep -E --color=never '[Error].*org.*<<< ERROR!|[Error].*org.*<<< FAILURE!' output.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/java-test-failures.txt
-            /$
+            /*sh '''
+            mvn clean test [-options] --fail-never -Dstyle.color=never | tee ../output.txt
+            '''*/
+            /*sh 'mvn surefire-report:report-only  -Daggregate=true'
+            sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://path_to_reporting_directory/surefire-report-${number}.html'
+            /* extract the java-test and scalatest-plugin data output and remove all color signs */
+            sh'./test_comparison/src/grep_commands/grep-surefire-2.20.sh'
+            /*sh'./test_comparison/src/grep_commands/grep-scalatest.sh'*/
             /* Perform the data transformation and the comparison*/
             sh '''
             cd test_comparison
             ./transformation.sh
-            ./decision.sh ${number}
-            curl -v -u $user:$pass --upload-file results-${number}.json http://path_to_the_project_results_directory/results-${number}.json
+            ./src/decision.sh ${number}
+            curl -v -u $user:$pass --upload-file results-${number}.json http://10.110.4.212:8081/repository/scala-test-reports/spark/results-${number}.json
             '''
         }
     }
@@ -70,9 +60,11 @@ stage('Test') {
 
 3. Set the path `http://path_to_the_project_results_directory/` in these two stages.
 
-4. In the testing stage set the `[-options]` for the Maven test command if necessary
+4. In the command `echo "python3 src/python/main.py {surefire-version} ${number} ${file}" > transformation.sh`, set the `{surefire-version}`. Chose between `2.14`, `2.20` and `3.0.0`.
 
-5. Not mandatory but if you want to add a reporting function you can add the maven-surefire-report-plugin command after the Maven test command:
+5. In the testing stage set the `[-options]` for the Maven test command if necessary
+
+6. Not mandatory but if you want to add a reporting function you can add the maven-surefire-report-plugin command after the Maven test command:
 
 ```groovy
 sh 'mvn surefire-report:report-only  -Daggregate=true'
@@ -80,4 +72,6 @@ sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http:/
 ```
 **Note:** You need to have the maven-surefire-report-plugin in your project. If you do not have it, you need to set the plugin in the pom.xml. Also do not forget to set the path `path_to_reporting_directory`.
 
-6. In the `decision.sh` script, Set the path to the test comparison folder in the external repository.
+7. If you have scalatests comment out the command `sh'./test_comparison/src/grep_commands/grep-scalatest.sh'`
+
+8. In the `decision.sh` script, Set the path to the test comparison folder in the external repository.
