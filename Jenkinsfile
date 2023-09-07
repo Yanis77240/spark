@@ -46,7 +46,7 @@ podTemplate(containers: [
                         sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-2.3/surefire-report-${number}.html'
                         /* extract the scalatest-plugin data and java-test data output and remove all color signs */
                         sh'./test-comparison/src/grep-commands/grep-surefire-2.20.sh'
-                        sh'./test-comparison/src/grep-commands/grep-scalatest.sh'*/
+                        sh'./test-comparison/src/grep-commands/grep-scalatest.sh'
                         /* Perform the data transformation and the comparison*/
                         sh '''
                         cd test-comparison
@@ -70,7 +70,7 @@ podTemplate(containers: [
                         sh 'curl -v -u $user:$pass --upload-file spark-2.3.5-TDP-0.1.0-SNAPSHOT-bin-tdp.tgz http://10.110.4.212:8081/repository/maven-tar-files/spark-2.3/spark-2.3.5-TDP-0.1.0-SNAPSHOT-bin-tdp-${number}.tar.gz'
                     }
                 }
-            }       
+            }
         }
     }
 }
