@@ -15,14 +15,14 @@ podTemplate(containers: [
                 echo "Cloning..."
                 git branch: 'branch-2.3-TDP-alliage-k8s', url: 'https://github.com/Yanis77240/spark'
             }
-            stage('Chose comparison') {
-                withEnv(["file=${input message: 'Select file in http://10.10.10.11:30000/repository/scala-test-reports/', parameters: [string('number of results file')]}"]) {
+           stage('Chose comparison') {
+                withEnv(["file=${input message: 'Select file in http://10.10.10.11:30000/repository/component-test-comparison/', parameters: [string('number of results file')]}"]) {
                     withEnv(["number=${currentBuild.number}"]) {
                         sh '''
-                        cd test_comparison
-                        curl -v http://10.10.10.11:30000/repository/scala-test-reports/spark/${file} > ${file}
-                        python3 comparison-file-check.py ${file}
-                        echo "python3 main.py ${number} ${file}" > transformation.sh
+                        cd test-comparison
+                        curl -v http://10.10.10.11:30000/repository/component-test-comparison/spark-2.3/${file} > ${file}
+                        python3 src/python/comparison_file_check.py ${file}
+                        echo "python3 src/python/main.py 2.20 ${number} ${file}" > transformation.sh
                         chmod 777 transformation.sh
                         '''
                     }
@@ -42,29 +42,17 @@ podTemplate(containers: [
                         sh '''
                         mvn clean test -Phive -Phive-thriftserver -Pyarn -Phadoop-3.1 -Pflume --batch-mode --fail-never -Dstyle.color=never | tee output.txt
                         '''
-                        /*sh 'mvn surefire-report:report-only  -Daggregate=true'
+                        sh 'mvn surefire-report:report-only  -Daggregate=true'
                         sh 'curl -v -u $user:$pass --upload-file target/site/surefire-report.html http://10.110.4.212:8081/repository/test-reports/spark-2.3/surefire-report-${number}.html'
                         /* extract the scalatest-plugin data and java-test data output and remove all color signs */
-                        sh script: $/
-                        # Generate text file with all failed scala tests without any colors
-                        grep -F --color=never --no-group-separator "*** FAILED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-tests.txt
-                        # Generate text file with all Aborted modules without any colors
-                        grep -E --color=never --no-group-separator "*** RUN ABORTED ***" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/aborted-tests.txt
-                        # Generate text file with all scala test statistics without any colors
-                        grep -E --color=never --no-group-separator "succeeded.*canceled.*ignored" */target/surefire-reports/SparkTestSuite.txt */**/target/surefire-reports/SparkTestSuite.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/scala-end-results.txt
-                        # Create CVS file with following titles as header
-                        echo "Tests_run, Failures, Errors, Skipped, Test_group" > test_comparison/output-tests.csv
-                        # Grep all Java test staistics in CSV file
-                        grep -E --color=never '(Failures:.*Errors:.*Skipped:.*Time elapsed:)' output.txt >> test_comparison/output-tests.csv
-                        # Generate text file with all failed Java tests without any colors
-                        grep -E --color=never '[Error].*org.*<<< ERROR!|[Error].*org.*<<< FAILURE!' output.txt | sed -r "s|\x1B\[[0-9;]*[mK]||g" > test_comparison/java-test-failures.txt
-                        /$
+                        sh'./test-comparison/src/grep-commands/grep-surefire-2.20.sh'
+                        sh'./test-comparison/src/grep-commands/grep-scalatest.sh'*/
                         /* Perform the data transformation and the comparison*/
                         sh '''
-                        cd test_comparison
+                        cd test-comparison
                         ./transformation.sh
-                        ./decision.sh ${number}
-                        curl -v -u $user:$pass --upload-file results-${number}.json http://10.110.4.212:8081/repository/scala-test-reports/spark/results-${number}.json
+                        ./src/decision.sh ${number}
+                        curl -v -u $user:$pass --upload-file results-${number}.json http://10.10.10.11:30000/repository/component-test-comparison/spark-2.3/results-${number}.json
                         '''
                     }
                 }
