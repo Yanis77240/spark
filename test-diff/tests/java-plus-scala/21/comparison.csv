@@ -1,0 +1,513 @@
+189,core,,- download remote resource if it is not supported by yarn service *** FAILED ***,left_only
+211,sql/catalyst,,- daysToMillis and millisToDays *** FAILED ***,left_only
+213,sql/hive,,- SPARK-22745 - read Hive's statistics for partition *** FAILED ***,left_only
+214,sql/hive,,- alter table rename after analyze table *** FAILED ***,left_only
+215,sql/hive,,- alter table SET TBLPROPERTIES after analyze table *** FAILED ***,left_only
+216,sql/hive,,- alter table UNSET TBLPROPERTIES after analyze table *** FAILED ***,left_only
+217,sql/hive,,- success sanity check *** FAILED ***,left_only
+218,sql/hive,,- hadoop configuration preserved *** FAILED ***,left_only
+219,sql/hive,,- 0.12: create client *** FAILED ***,left_only
+220,sql/hive,,- 0.12: createDatabase *** FAILED ***,left_only
+221,sql/hive,,- 0.12: createDatabase with null description *** FAILED ***,left_only
+222,sql/hive,,- 0.12: setCurrentDatabase *** FAILED ***,left_only
+223,sql/hive,,- 0.12: getDatabase *** FAILED ***,left_only
+224,sql/hive,,- 0.12: databaseExists *** FAILED ***,left_only
+225,sql/hive,,- 0.12: listDatabases *** FAILED ***,left_only
+226,sql/hive,,- 0.12: alterDatabase *** FAILED ***,left_only
+227,sql/hive,,- 0.12: dropDatabase *** FAILED ***,left_only
+228,sql/hive,,- 0.12: createTable *** FAILED ***,left_only
+229,sql/hive,,- 0.12: loadTable *** FAILED ***,left_only
+230,sql/hive,,- 0.12: tableExists *** FAILED ***,left_only
+231,sql/hive,,- 0.12: getTable *** FAILED ***,left_only
+232,sql/hive,,- 0.12: getTableOption *** FAILED ***,left_only
+233,sql/hive,,- 0.12: alterTable(table: CatalogTable) *** FAILED ***,left_only
+234,sql/hive,,"- 0.12: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+235,sql/hive,,- 0.12: alterTable - rename *** FAILED ***,left_only
+236,sql/hive,,- 0.12: alterTable - change database *** FAILED ***,left_only
+237,sql/hive,,- 0.12: alterTable - change database and table names *** FAILED ***,left_only
+238,sql/hive,,- 0.12: listTables(database) *** FAILED ***,left_only
+239,sql/hive,,"- 0.12: listTables(database, pattern) *** FAILED ***",left_only
+240,sql/hive,,- 0.12: dropTable *** FAILED ***,left_only
+241,sql/hive,,- 0.12: sql create partitioned table *** FAILED ***,left_only
+242,sql/hive,,- 0.12: createPartitions *** FAILED ***,left_only
+243,sql/hive,,- 0.12: getPartitionNames(catalogTable) *** FAILED ***,left_only
+244,sql/hive,,- 0.12: getPartitions(catalogTable) *** FAILED ***,left_only
+245,sql/hive,,- 0.12: getPartitionsByFilter *** FAILED ***,left_only
+246,sql/hive,,- 0.12: getPartition *** FAILED ***,left_only
+247,sql/hive,,"- 0.12: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+248,sql/hive,,"- 0.12: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+249,sql/hive,,"- 0.12: getPartitions(db: String, table: String) *** FAILED ***",left_only
+250,sql/hive,,- 0.12: loadPartition *** FAILED ***,left_only
+251,sql/hive,,- 0.12: loadDynamicPartitions *** FAILED ***,left_only
+252,sql/hive,,- 0.12: renamePartitions *** FAILED ***,left_only
+253,sql/hive,,- 0.12: alterPartitions *** FAILED ***,left_only
+254,sql/hive,,- 0.12: dropPartitions *** FAILED ***,left_only
+255,sql/hive,,- 0.12: createFunction *** FAILED ***,left_only
+256,sql/hive,,- 0.12: functionExists *** FAILED ***,left_only
+257,sql/hive,,- 0.12: renameFunction *** FAILED ***,left_only
+258,sql/hive,,- 0.12: alterFunction *** FAILED ***,left_only
+259,sql/hive,,- 0.12: getFunction *** FAILED ***,left_only
+260,sql/hive,,- 0.12: getFunctionOption *** FAILED ***,left_only
+261,sql/hive,,- 0.12: listFunctions *** FAILED ***,left_only
+262,sql/hive,,- 0.12: dropFunction *** FAILED ***,left_only
+263,sql/hive,,- 0.12: sql set command *** FAILED ***,left_only
+264,sql/hive,,- 0.12: sql create index and reset *** FAILED ***,left_only
+265,sql/hive,,- 0.12: version *** FAILED ***,left_only
+266,sql/hive,,- 0.12: getConf *** FAILED ***,left_only
+267,sql/hive,,- 0.12: setOut *** FAILED ***,left_only
+268,sql/hive,,- 0.12: setInfo *** FAILED ***,left_only
+269,sql/hive,,- 0.12: setError *** FAILED ***,left_only
+270,sql/hive,,- 0.12: newSession *** FAILED ***,left_only
+271,sql/hive,,- 0.12: withHiveState and addJar *** FAILED ***,left_only
+272,sql/hive,,- 0.12: reset *** FAILED ***,left_only
+273,sql/hive,,- 0.12: CREATE TABLE AS SELECT *** FAILED ***,left_only
+274,sql/hive,,- 0.12: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+275,sql/hive,,- 0.12: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+276,sql/hive,,- 0.12: CTAS for managed data source tables *** FAILED ***,left_only
+277,sql/hive,,- 0.12: Decimal support of Avro Hive serde *** FAILED ***,left_only
+278,sql/hive,,- 0.12: read avro file containing decimal *** FAILED ***,left_only
+279,sql/hive,,- 0.12: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+280,sql/hive,,- 0.13: create client *** FAILED ***,left_only
+281,sql/hive,,- 0.13: createDatabase *** FAILED ***,left_only
+282,sql/hive,,- 0.13: createDatabase with null description *** FAILED ***,left_only
+283,sql/hive,,- 0.13: setCurrentDatabase *** FAILED ***,left_only
+284,sql/hive,,- 0.13: getDatabase *** FAILED ***,left_only
+285,sql/hive,,- 0.13: databaseExists *** FAILED ***,left_only
+286,sql/hive,,- 0.13: listDatabases *** FAILED ***,left_only
+287,sql/hive,,- 0.13: alterDatabase *** FAILED ***,left_only
+288,sql/hive,,- 0.13: dropDatabase *** FAILED ***,left_only
+289,sql/hive,,- 0.13: createTable *** FAILED ***,left_only
+290,sql/hive,,- 0.13: loadTable *** FAILED ***,left_only
+291,sql/hive,,- 0.13: tableExists *** FAILED ***,left_only
+292,sql/hive,,- 0.13: getTable *** FAILED ***,left_only
+293,sql/hive,,- 0.13: getTableOption *** FAILED ***,left_only
+294,sql/hive,,- 0.13: alterTable(table: CatalogTable) *** FAILED ***,left_only
+295,sql/hive,,"- 0.13: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+296,sql/hive,,- 0.13: alterTable - rename *** FAILED ***,left_only
+297,sql/hive,,- 0.13: alterTable - change database *** FAILED ***,left_only
+298,sql/hive,,- 0.13: alterTable - change database and table names *** FAILED ***,left_only
+299,sql/hive,,- 0.13: listTables(database) *** FAILED ***,left_only
+300,sql/hive,,"- 0.13: listTables(database, pattern) *** FAILED ***",left_only
+301,sql/hive,,- 0.13: dropTable *** FAILED ***,left_only
+302,sql/hive,,- 0.13: sql create partitioned table *** FAILED ***,left_only
+303,sql/hive,,- 0.13: createPartitions *** FAILED ***,left_only
+304,sql/hive,,- 0.13: getPartitionNames(catalogTable) *** FAILED ***,left_only
+305,sql/hive,,- 0.13: getPartitions(catalogTable) *** FAILED ***,left_only
+306,sql/hive,,- 0.13: getPartitionsByFilter *** FAILED ***,left_only
+307,sql/hive,,- 0.13: getPartition *** FAILED ***,left_only
+308,sql/hive,,"- 0.13: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+309,sql/hive,,"- 0.13: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+310,sql/hive,,"- 0.13: getPartitions(db: String, table: String) *** FAILED ***",left_only
+311,sql/hive,,- 0.13: loadPartition *** FAILED ***,left_only
+312,sql/hive,,- 0.13: loadDynamicPartitions *** FAILED ***,left_only
+313,sql/hive,,- 0.13: renamePartitions *** FAILED ***,left_only
+314,sql/hive,,- 0.13: alterPartitions *** FAILED ***,left_only
+315,sql/hive,,- 0.13: dropPartitions *** FAILED ***,left_only
+316,sql/hive,,- 0.13: createFunction *** FAILED ***,left_only
+317,sql/hive,,- 0.13: functionExists *** FAILED ***,left_only
+318,sql/hive,,- 0.13: renameFunction *** FAILED ***,left_only
+319,sql/hive,,- 0.13: alterFunction *** FAILED ***,left_only
+320,sql/hive,,- 0.13: getFunction *** FAILED ***,left_only
+321,sql/hive,,- 0.13: getFunctionOption *** FAILED ***,left_only
+322,sql/hive,,- 0.13: listFunctions *** FAILED ***,left_only
+323,sql/hive,,- 0.13: dropFunction *** FAILED ***,left_only
+324,sql/hive,,- 0.13: sql set command *** FAILED ***,left_only
+325,sql/hive,,- 0.13: sql create index and reset *** FAILED ***,left_only
+326,sql/hive,,- 0.13: version *** FAILED ***,left_only
+327,sql/hive,,- 0.13: getConf *** FAILED ***,left_only
+328,sql/hive,,- 0.13: setOut *** FAILED ***,left_only
+329,sql/hive,,- 0.13: setInfo *** FAILED ***,left_only
+330,sql/hive,,- 0.13: setError *** FAILED ***,left_only
+331,sql/hive,,- 0.13: newSession *** FAILED ***,left_only
+332,sql/hive,,- 0.13: withHiveState and addJar *** FAILED ***,left_only
+333,sql/hive,,- 0.13: reset *** FAILED ***,left_only
+334,sql/hive,,- 0.13: CREATE TABLE AS SELECT *** FAILED ***,left_only
+335,sql/hive,,- 0.13: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+336,sql/hive,,- 0.13: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+337,sql/hive,,- 0.13: CTAS for managed data source tables *** FAILED ***,left_only
+338,sql/hive,,- 0.13: Decimal support of Avro Hive serde *** FAILED ***,left_only
+339,sql/hive,,- 0.13: read avro file containing decimal *** FAILED ***,left_only
+340,sql/hive,,- 0.13: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+341,sql/hive,,- 0.14: create client *** FAILED ***,left_only
+342,sql/hive,,- 0.14: createDatabase *** FAILED ***,left_only
+343,sql/hive,,- 0.14: createDatabase with null description *** FAILED ***,left_only
+344,sql/hive,,- 0.14: setCurrentDatabase *** FAILED ***,left_only
+345,sql/hive,,- 0.14: getDatabase *** FAILED ***,left_only
+346,sql/hive,,- 0.14: databaseExists *** FAILED ***,left_only
+347,sql/hive,,- 0.14: listDatabases *** FAILED ***,left_only
+348,sql/hive,,- 0.14: alterDatabase *** FAILED ***,left_only
+349,sql/hive,,- 0.14: dropDatabase *** FAILED ***,left_only
+350,sql/hive,,- 0.14: createTable *** FAILED ***,left_only
+351,sql/hive,,- 0.14: loadTable *** FAILED ***,left_only
+352,sql/hive,,- 0.14: tableExists *** FAILED ***,left_only
+353,sql/hive,,- 0.14: getTable *** FAILED ***,left_only
+354,sql/hive,,- 0.14: getTableOption *** FAILED ***,left_only
+355,sql/hive,,- 0.14: alterTable(table: CatalogTable) *** FAILED ***,left_only
+356,sql/hive,,"- 0.14: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+357,sql/hive,,- 0.14: alterTable - rename *** FAILED ***,left_only
+358,sql/hive,,- 0.14: alterTable - change database *** FAILED ***,left_only
+359,sql/hive,,- 0.14: alterTable - change database and table names *** FAILED ***,left_only
+360,sql/hive,,- 0.14: listTables(database) *** FAILED ***,left_only
+361,sql/hive,,"- 0.14: listTables(database, pattern) *** FAILED ***",left_only
+362,sql/hive,,- 0.14: dropTable *** FAILED ***,left_only
+363,sql/hive,,- 0.14: sql create partitioned table *** FAILED ***,left_only
+364,sql/hive,,- 0.14: createPartitions *** FAILED ***,left_only
+365,sql/hive,,- 0.14: getPartitionNames(catalogTable) *** FAILED ***,left_only
+366,sql/hive,,- 0.14: getPartitions(catalogTable) *** FAILED ***,left_only
+367,sql/hive,,- 0.14: getPartitionsByFilter *** FAILED ***,left_only
+368,sql/hive,,- 0.14: getPartition *** FAILED ***,left_only
+369,sql/hive,,"- 0.14: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+370,sql/hive,,"- 0.14: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+371,sql/hive,,"- 0.14: getPartitions(db: String, table: String) *** FAILED ***",left_only
+372,sql/hive,,- 0.14: loadPartition *** FAILED ***,left_only
+373,sql/hive,,- 0.14: loadDynamicPartitions *** FAILED ***,left_only
+374,sql/hive,,- 0.14: renamePartitions *** FAILED ***,left_only
+375,sql/hive,,- 0.14: alterPartitions *** FAILED ***,left_only
+376,sql/hive,,- 0.14: dropPartitions *** FAILED ***,left_only
+377,sql/hive,,- 0.14: createFunction *** FAILED ***,left_only
+378,sql/hive,,- 0.14: functionExists *** FAILED ***,left_only
+379,sql/hive,,- 0.14: renameFunction *** FAILED ***,left_only
+380,sql/hive,,- 0.14: alterFunction *** FAILED ***,left_only
+381,sql/hive,,- 0.14: getFunction *** FAILED ***,left_only
+382,sql/hive,,- 0.14: getFunctionOption *** FAILED ***,left_only
+383,sql/hive,,- 0.14: listFunctions *** FAILED ***,left_only
+384,sql/hive,,- 0.14: dropFunction *** FAILED ***,left_only
+385,sql/hive,,- 0.14: sql set command *** FAILED ***,left_only
+386,sql/hive,,- 0.14: sql create index and reset *** FAILED ***,left_only
+387,sql/hive,,- 0.14: version *** FAILED ***,left_only
+388,sql/hive,,- 0.14: getConf *** FAILED ***,left_only
+389,sql/hive,,- 0.14: setOut *** FAILED ***,left_only
+390,sql/hive,,- 0.14: setInfo *** FAILED ***,left_only
+391,sql/hive,,- 0.14: setError *** FAILED ***,left_only
+392,sql/hive,,- 0.14: newSession *** FAILED ***,left_only
+393,sql/hive,,- 0.14: withHiveState and addJar *** FAILED ***,left_only
+394,sql/hive,,- 0.14: reset *** FAILED ***,left_only
+395,sql/hive,,- 0.14: CREATE TABLE AS SELECT *** FAILED ***,left_only
+396,sql/hive,,- 0.14: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+397,sql/hive,,- 0.14: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+398,sql/hive,,- 0.14: CTAS for managed data source tables *** FAILED ***,left_only
+399,sql/hive,,- 0.14: Decimal support of Avro Hive serde *** FAILED ***,left_only
+400,sql/hive,,- 0.14: read avro file containing decimal *** FAILED ***,left_only
+401,sql/hive,,- 0.14: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+402,sql/hive,,- 1.0: create client *** FAILED ***,left_only
+403,sql/hive,,- 1.0: createDatabase *** FAILED ***,left_only
+404,sql/hive,,- 1.0: createDatabase with null description *** FAILED ***,left_only
+405,sql/hive,,- 1.0: setCurrentDatabase *** FAILED ***,left_only
+406,sql/hive,,- 1.0: getDatabase *** FAILED ***,left_only
+407,sql/hive,,- 1.0: databaseExists *** FAILED ***,left_only
+408,sql/hive,,- 1.0: listDatabases *** FAILED ***,left_only
+409,sql/hive,,- 1.0: alterDatabase *** FAILED ***,left_only
+410,sql/hive,,- 1.0: dropDatabase *** FAILED ***,left_only
+411,sql/hive,,- 1.0: createTable *** FAILED ***,left_only
+412,sql/hive,,- 1.0: loadTable *** FAILED ***,left_only
+413,sql/hive,,- 1.0: tableExists *** FAILED ***,left_only
+414,sql/hive,,- 1.0: getTable *** FAILED ***,left_only
+415,sql/hive,,- 1.0: getTableOption *** FAILED ***,left_only
+416,sql/hive,,- 1.0: alterTable(table: CatalogTable) *** FAILED ***,left_only
+417,sql/hive,,"- 1.0: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+418,sql/hive,,- 1.0: alterTable - rename *** FAILED ***,left_only
+419,sql/hive,,- 1.0: alterTable - change database *** FAILED ***,left_only
+420,sql/hive,,- 1.0: alterTable - change database and table names *** FAILED ***,left_only
+421,sql/hive,,- 1.0: listTables(database) *** FAILED ***,left_only
+422,sql/hive,,"- 1.0: listTables(database, pattern) *** FAILED ***",left_only
+423,sql/hive,,- 1.0: dropTable *** FAILED ***,left_only
+424,sql/hive,,- 1.0: sql create partitioned table *** FAILED ***,left_only
+425,sql/hive,,- 1.0: createPartitions *** FAILED ***,left_only
+426,sql/hive,,- 1.0: getPartitionNames(catalogTable) *** FAILED ***,left_only
+427,sql/hive,,- 1.0: getPartitions(catalogTable) *** FAILED ***,left_only
+428,sql/hive,,- 1.0: getPartitionsByFilter *** FAILED ***,left_only
+429,sql/hive,,- 1.0: getPartition *** FAILED ***,left_only
+430,sql/hive,,"- 1.0: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+431,sql/hive,,"- 1.0: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+432,sql/hive,,"- 1.0: getPartitions(db: String, table: String) *** FAILED ***",left_only
+433,sql/hive,,- 1.0: loadPartition *** FAILED ***,left_only
+434,sql/hive,,- 1.0: loadDynamicPartitions *** FAILED ***,left_only
+435,sql/hive,,- 1.0: renamePartitions *** FAILED ***,left_only
+436,sql/hive,,- 1.0: alterPartitions *** FAILED ***,left_only
+437,sql/hive,,- 1.0: dropPartitions *** FAILED ***,left_only
+438,sql/hive,,- 1.0: createFunction *** FAILED ***,left_only
+439,sql/hive,,- 1.0: functionExists *** FAILED ***,left_only
+440,sql/hive,,- 1.0: renameFunction *** FAILED ***,left_only
+441,sql/hive,,- 1.0: alterFunction *** FAILED ***,left_only
+442,sql/hive,,- 1.0: getFunction *** FAILED ***,left_only
+443,sql/hive,,- 1.0: getFunctionOption *** FAILED ***,left_only
+444,sql/hive,,- 1.0: listFunctions *** FAILED ***,left_only
+445,sql/hive,,- 1.0: dropFunction *** FAILED ***,left_only
+446,sql/hive,,- 1.0: sql set command *** FAILED ***,left_only
+447,sql/hive,,- 1.0: sql create index and reset *** FAILED ***,left_only
+448,sql/hive,,- 1.0: version *** FAILED ***,left_only
+449,sql/hive,,- 1.0: getConf *** FAILED ***,left_only
+450,sql/hive,,- 1.0: setOut *** FAILED ***,left_only
+451,sql/hive,,- 1.0: setInfo *** FAILED ***,left_only
+452,sql/hive,,- 1.0: setError *** FAILED ***,left_only
+453,sql/hive,,- 1.0: newSession *** FAILED ***,left_only
+454,sql/hive,,- 1.0: withHiveState and addJar *** FAILED ***,left_only
+455,sql/hive,,- 1.0: reset *** FAILED ***,left_only
+456,sql/hive,,- 1.0: CREATE TABLE AS SELECT *** FAILED ***,left_only
+457,sql/hive,,- 1.0: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+458,sql/hive,,- 1.0: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+459,sql/hive,,- 1.0: CTAS for managed data source tables *** FAILED ***,left_only
+460,sql/hive,,- 1.0: Decimal support of Avro Hive serde *** FAILED ***,left_only
+461,sql/hive,,- 1.0: read avro file containing decimal *** FAILED ***,left_only
+462,sql/hive,,- 1.0: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+463,sql/hive,,- 1.1: create client *** FAILED ***,left_only
+464,sql/hive,,- 1.1: createDatabase *** FAILED ***,left_only
+465,sql/hive,,- 1.1: createDatabase with null description *** FAILED ***,left_only
+466,sql/hive,,- 1.1: setCurrentDatabase *** FAILED ***,left_only
+467,sql/hive,,- 1.1: getDatabase *** FAILED ***,left_only
+468,sql/hive,,- 1.1: databaseExists *** FAILED ***,left_only
+469,sql/hive,,- 1.1: listDatabases *** FAILED ***,left_only
+470,sql/hive,,- 1.1: alterDatabase *** FAILED ***,left_only
+471,sql/hive,,- 1.1: dropDatabase *** FAILED ***,left_only
+472,sql/hive,,- 1.1: createTable *** FAILED ***,left_only
+473,sql/hive,,- 1.1: loadTable *** FAILED ***,left_only
+474,sql/hive,,- 1.1: tableExists *** FAILED ***,left_only
+475,sql/hive,,- 1.1: getTable *** FAILED ***,left_only
+476,sql/hive,,- 1.1: getTableOption *** FAILED ***,left_only
+477,sql/hive,,- 1.1: alterTable(table: CatalogTable) *** FAILED ***,left_only
+478,sql/hive,,"- 1.1: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+479,sql/hive,,- 1.1: alterTable - rename *** FAILED ***,left_only
+480,sql/hive,,- 1.1: alterTable - change database *** FAILED ***,left_only
+481,sql/hive,,- 1.1: alterTable - change database and table names *** FAILED ***,left_only
+482,sql/hive,,- 1.1: listTables(database) *** FAILED ***,left_only
+483,sql/hive,,"- 1.1: listTables(database, pattern) *** FAILED ***",left_only
+484,sql/hive,,- 1.1: dropTable *** FAILED ***,left_only
+485,sql/hive,,- 1.1: sql create partitioned table *** FAILED ***,left_only
+486,sql/hive,,- 1.1: createPartitions *** FAILED ***,left_only
+487,sql/hive,,- 1.1: getPartitionNames(catalogTable) *** FAILED ***,left_only
+488,sql/hive,,- 1.1: getPartitions(catalogTable) *** FAILED ***,left_only
+489,sql/hive,,- 1.1: getPartitionsByFilter *** FAILED ***,left_only
+490,sql/hive,,- 1.1: getPartition *** FAILED ***,left_only
+491,sql/hive,,"- 1.1: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+492,sql/hive,,"- 1.1: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+493,sql/hive,,"- 1.1: getPartitions(db: String, table: String) *** FAILED ***",left_only
+494,sql/hive,,- 1.1: loadPartition *** FAILED ***,left_only
+495,sql/hive,,- 1.1: loadDynamicPartitions *** FAILED ***,left_only
+496,sql/hive,,- 1.1: renamePartitions *** FAILED ***,left_only
+497,sql/hive,,- 1.1: alterPartitions *** FAILED ***,left_only
+498,sql/hive,,- 1.1: dropPartitions *** FAILED ***,left_only
+499,sql/hive,,- 1.1: createFunction *** FAILED ***,left_only
+500,sql/hive,,- 1.1: functionExists *** FAILED ***,left_only
+501,sql/hive,,- 1.1: renameFunction *** FAILED ***,left_only
+502,sql/hive,,- 1.1: alterFunction *** FAILED ***,left_only
+503,sql/hive,,- 1.1: getFunction *** FAILED ***,left_only
+504,sql/hive,,- 1.1: getFunctionOption *** FAILED ***,left_only
+505,sql/hive,,- 1.1: listFunctions *** FAILED ***,left_only
+506,sql/hive,,- 1.1: dropFunction *** FAILED ***,left_only
+507,sql/hive,,- 1.1: sql set command *** FAILED ***,left_only
+508,sql/hive,,- 1.1: sql create index and reset *** FAILED ***,left_only
+509,sql/hive,,- 1.1: version *** FAILED ***,left_only
+510,sql/hive,,- 1.1: getConf *** FAILED ***,left_only
+511,sql/hive,,- 1.1: setOut *** FAILED ***,left_only
+512,sql/hive,,- 1.1: setInfo *** FAILED ***,left_only
+513,sql/hive,,- 1.1: setError *** FAILED ***,left_only
+514,sql/hive,,- 1.1: newSession *** FAILED ***,left_only
+515,sql/hive,,- 1.1: withHiveState and addJar *** FAILED ***,left_only
+516,sql/hive,,- 1.1: reset *** FAILED ***,left_only
+517,sql/hive,,- 1.1: CREATE TABLE AS SELECT *** FAILED ***,left_only
+518,sql/hive,,- 1.1: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+519,sql/hive,,- 1.1: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+520,sql/hive,,- 1.1: CTAS for managed data source tables *** FAILED ***,left_only
+521,sql/hive,,- 1.1: Decimal support of Avro Hive serde *** FAILED ***,left_only
+522,sql/hive,,- 1.1: read avro file containing decimal *** FAILED ***,left_only
+523,sql/hive,,- 1.1: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+524,sql/hive,,- 1.2: create client *** FAILED ***,left_only
+525,sql/hive,,- 1.2: createDatabase *** FAILED ***,left_only
+526,sql/hive,,- 1.2: createDatabase with null description *** FAILED ***,left_only
+527,sql/hive,,- 1.2: setCurrentDatabase *** FAILED ***,left_only
+528,sql/hive,,- 1.2: getDatabase *** FAILED ***,left_only
+529,sql/hive,,- 1.2: databaseExists *** FAILED ***,left_only
+530,sql/hive,,- 1.2: listDatabases *** FAILED ***,left_only
+531,sql/hive,,- 1.2: alterDatabase *** FAILED ***,left_only
+532,sql/hive,,- 1.2: dropDatabase *** FAILED ***,left_only
+533,sql/hive,,- 1.2: createTable *** FAILED ***,left_only
+534,sql/hive,,- 1.2: loadTable *** FAILED ***,left_only
+535,sql/hive,,- 1.2: tableExists *** FAILED ***,left_only
+536,sql/hive,,- 1.2: getTable *** FAILED ***,left_only
+537,sql/hive,,- 1.2: getTableOption *** FAILED ***,left_only
+538,sql/hive,,- 1.2: alterTable(table: CatalogTable) *** FAILED ***,left_only
+539,sql/hive,,"- 1.2: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+540,sql/hive,,- 1.2: alterTable - rename *** FAILED ***,left_only
+541,sql/hive,,- 1.2: alterTable - change database *** FAILED ***,left_only
+542,sql/hive,,- 1.2: alterTable - change database and table names *** FAILED ***,left_only
+543,sql/hive,,- 1.2: listTables(database) *** FAILED ***,left_only
+544,sql/hive,,"- 1.2: listTables(database, pattern) *** FAILED ***",left_only
+545,sql/hive,,- 1.2: dropTable *** FAILED ***,left_only
+546,sql/hive,,- 1.2: sql create partitioned table *** FAILED ***,left_only
+547,sql/hive,,- 1.2: createPartitions *** FAILED ***,left_only
+548,sql/hive,,- 1.2: getPartitionNames(catalogTable) *** FAILED ***,left_only
+549,sql/hive,,- 1.2: getPartitions(catalogTable) *** FAILED ***,left_only
+550,sql/hive,,- 1.2: getPartitionsByFilter *** FAILED ***,left_only
+551,sql/hive,,- 1.2: getPartition *** FAILED ***,left_only
+552,sql/hive,,"- 1.2: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+553,sql/hive,,"- 1.2: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+554,sql/hive,,"- 1.2: getPartitions(db: String, table: String) *** FAILED ***",left_only
+555,sql/hive,,- 1.2: loadPartition *** FAILED ***,left_only
+556,sql/hive,,- 1.2: loadDynamicPartitions *** FAILED ***,left_only
+557,sql/hive,,- 1.2: renamePartitions *** FAILED ***,left_only
+558,sql/hive,,- 1.2: alterPartitions *** FAILED ***,left_only
+559,sql/hive,,- 1.2: dropPartitions *** FAILED ***,left_only
+560,sql/hive,,- 1.2: createFunction *** FAILED ***,left_only
+561,sql/hive,,- 1.2: functionExists *** FAILED ***,left_only
+562,sql/hive,,- 1.2: renameFunction *** FAILED ***,left_only
+563,sql/hive,,- 1.2: alterFunction *** FAILED ***,left_only
+564,sql/hive,,- 1.2: getFunction *** FAILED ***,left_only
+565,sql/hive,,- 1.2: getFunctionOption *** FAILED ***,left_only
+566,sql/hive,,- 1.2: listFunctions *** FAILED ***,left_only
+567,sql/hive,,- 1.2: dropFunction *** FAILED ***,left_only
+568,sql/hive,,- 1.2: sql set command *** FAILED ***,left_only
+569,sql/hive,,- 1.2: sql create index and reset *** FAILED ***,left_only
+570,sql/hive,,- 1.2: version *** FAILED ***,left_only
+571,sql/hive,,- 1.2: getConf *** FAILED ***,left_only
+572,sql/hive,,- 1.2: setOut *** FAILED ***,left_only
+573,sql/hive,,- 1.2: setInfo *** FAILED ***,left_only
+574,sql/hive,,- 1.2: setError *** FAILED ***,left_only
+575,sql/hive,,- 1.2: newSession *** FAILED ***,left_only
+576,sql/hive,,- 1.2: withHiveState and addJar *** FAILED ***,left_only
+577,sql/hive,,- 1.2: reset *** FAILED ***,left_only
+578,sql/hive,,- 1.2: CREATE TABLE AS SELECT *** FAILED ***,left_only
+579,sql/hive,,- 1.2: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+580,sql/hive,,- 1.2: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+581,sql/hive,,- 1.2: CTAS for managed data source tables *** FAILED ***,left_only
+582,sql/hive,,- 1.2: Decimal support of Avro Hive serde *** FAILED ***,left_only
+583,sql/hive,,- 1.2: read avro file containing decimal *** FAILED ***,left_only
+584,sql/hive,,- 1.2: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+585,sql/hive,,- 2.0: create client *** FAILED ***,left_only
+586,sql/hive,,- 2.0: createDatabase *** FAILED ***,left_only
+587,sql/hive,,- 2.0: createDatabase with null description *** FAILED ***,left_only
+588,sql/hive,,- 2.0: setCurrentDatabase *** FAILED ***,left_only
+589,sql/hive,,- 2.0: getDatabase *** FAILED ***,left_only
+590,sql/hive,,- 2.0: databaseExists *** FAILED ***,left_only
+591,sql/hive,,- 2.0: listDatabases *** FAILED ***,left_only
+592,sql/hive,,- 2.0: alterDatabase *** FAILED ***,left_only
+593,sql/hive,,- 2.0: dropDatabase *** FAILED ***,left_only
+594,sql/hive,,- 2.0: createTable *** FAILED ***,left_only
+595,sql/hive,,- 2.0: loadTable *** FAILED ***,left_only
+596,sql/hive,,- 2.0: tableExists *** FAILED ***,left_only
+597,sql/hive,,- 2.0: getTable *** FAILED ***,left_only
+598,sql/hive,,- 2.0: getTableOption *** FAILED ***,left_only
+599,sql/hive,,- 2.0: alterTable(table: CatalogTable) *** FAILED ***,left_only
+600,sql/hive,,"- 2.0: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+601,sql/hive,,- 2.0: alterTable - rename *** FAILED ***,left_only
+602,sql/hive,,- 2.0: alterTable - change database *** FAILED ***,left_only
+603,sql/hive,,- 2.0: alterTable - change database and table names *** FAILED ***,left_only
+604,sql/hive,,- 2.0: listTables(database) *** FAILED ***,left_only
+605,sql/hive,,"- 2.0: listTables(database, pattern) *** FAILED ***",left_only
+606,sql/hive,,- 2.0: dropTable *** FAILED ***,left_only
+607,sql/hive,,- 2.0: sql create partitioned table *** FAILED ***,left_only
+608,sql/hive,,- 2.0: createPartitions *** FAILED ***,left_only
+609,sql/hive,,- 2.0: getPartitionNames(catalogTable) *** FAILED ***,left_only
+610,sql/hive,,- 2.0: getPartitions(catalogTable) *** FAILED ***,left_only
+611,sql/hive,,- 2.0: getPartitionsByFilter *** FAILED ***,left_only
+612,sql/hive,,- 2.0: getPartition *** FAILED ***,left_only
+613,sql/hive,,"- 2.0: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+614,sql/hive,,"- 2.0: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+615,sql/hive,,"- 2.0: getPartitions(db: String, table: String) *** FAILED ***",left_only
+616,sql/hive,,- 2.0: loadPartition *** FAILED ***,left_only
+617,sql/hive,,- 2.0: loadDynamicPartitions *** FAILED ***,left_only
+618,sql/hive,,- 2.0: renamePartitions *** FAILED ***,left_only
+619,sql/hive,,- 2.0: alterPartitions *** FAILED ***,left_only
+620,sql/hive,,- 2.0: dropPartitions *** FAILED ***,left_only
+621,sql/hive,,- 2.0: createFunction *** FAILED ***,left_only
+622,sql/hive,,- 2.0: functionExists *** FAILED ***,left_only
+623,sql/hive,,- 2.0: renameFunction *** FAILED ***,left_only
+624,sql/hive,,- 2.0: alterFunction *** FAILED ***,left_only
+625,sql/hive,,- 2.0: getFunction *** FAILED ***,left_only
+626,sql/hive,,- 2.0: getFunctionOption *** FAILED ***,left_only
+627,sql/hive,,- 2.0: listFunctions *** FAILED ***,left_only
+628,sql/hive,,- 2.0: dropFunction *** FAILED ***,left_only
+629,sql/hive,,- 2.0: sql set command *** FAILED ***,left_only
+630,sql/hive,,- 2.0: sql create index and reset *** FAILED ***,left_only
+631,sql/hive,,- 2.0: version *** FAILED ***,left_only
+632,sql/hive,,- 2.0: getConf *** FAILED ***,left_only
+633,sql/hive,,- 2.0: setOut *** FAILED ***,left_only
+634,sql/hive,,- 2.0: setInfo *** FAILED ***,left_only
+635,sql/hive,,- 2.0: setError *** FAILED ***,left_only
+636,sql/hive,,- 2.0: newSession *** FAILED ***,left_only
+637,sql/hive,,- 2.0: withHiveState and addJar *** FAILED ***,left_only
+638,sql/hive,,- 2.0: reset *** FAILED ***,left_only
+639,sql/hive,,- 2.0: CREATE TABLE AS SELECT *** FAILED ***,left_only
+640,sql/hive,,- 2.0: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+641,sql/hive,,- 2.0: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+642,sql/hive,,- 2.0: CTAS for managed data source tables *** FAILED ***,left_only
+643,sql/hive,,- 2.0: Decimal support of Avro Hive serde *** FAILED ***,left_only
+644,sql/hive,,- 2.0: read avro file containing decimal *** FAILED ***,left_only
+645,sql/hive,,- 2.0: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+646,sql/hive,,- 2.1: create client *** FAILED ***,left_only
+647,sql/hive,,- 2.1: createDatabase *** FAILED ***,left_only
+648,sql/hive,,- 2.1: createDatabase with null description *** FAILED ***,left_only
+649,sql/hive,,- 2.1: setCurrentDatabase *** FAILED ***,left_only
+650,sql/hive,,- 2.1: getDatabase *** FAILED ***,left_only
+651,sql/hive,,- 2.1: databaseExists *** FAILED ***,left_only
+652,sql/hive,,- 2.1: listDatabases *** FAILED ***,left_only
+653,sql/hive,,- 2.1: alterDatabase *** FAILED ***,left_only
+654,sql/hive,,- 2.1: dropDatabase *** FAILED ***,left_only
+655,sql/hive,,- 2.1: createTable *** FAILED ***,left_only
+656,sql/hive,,- 2.1: loadTable *** FAILED ***,left_only
+657,sql/hive,,- 2.1: tableExists *** FAILED ***,left_only
+658,sql/hive,,- 2.1: getTable *** FAILED ***,left_only
+659,sql/hive,,- 2.1: getTableOption *** FAILED ***,left_only
+660,sql/hive,,- 2.1: alterTable(table: CatalogTable) *** FAILED ***,left_only
+661,sql/hive,,"- 2.1: alterTable(dbName: String, tableName: String, table: CatalogTable) *** FAILED ***",left_only
+662,sql/hive,,- 2.1: alterTable - rename *** FAILED ***,left_only
+663,sql/hive,,- 2.1: alterTable - change database *** FAILED ***,left_only
+664,sql/hive,,- 2.1: alterTable - change database and table names *** FAILED ***,left_only
+665,sql/hive,,- 2.1: listTables(database) *** FAILED ***,left_only
+666,sql/hive,,"- 2.1: listTables(database, pattern) *** FAILED ***",left_only
+667,sql/hive,,- 2.1: dropTable *** FAILED ***,left_only
+668,sql/hive,,- 2.1: sql create partitioned table *** FAILED ***,left_only
+669,sql/hive,,- 2.1: createPartitions *** FAILED ***,left_only
+670,sql/hive,,- 2.1: getPartitionNames(catalogTable) *** FAILED ***,left_only
+671,sql/hive,,- 2.1: getPartitions(catalogTable) *** FAILED ***,left_only
+672,sql/hive,,- 2.1: getPartitionsByFilter *** FAILED ***,left_only
+673,sql/hive,,- 2.1: getPartition *** FAILED ***,left_only
+674,sql/hive,,"- 2.1: getPartitionOption(db: String, table: String, spec: TablePartitionSpec) *** FAILED ***",left_only
+675,sql/hive,,"- 2.1: getPartitionOption(table: CatalogTable, spec: TablePartitionSpec) *** FAILED ***",left_only
+676,sql/hive,,"- 2.1: getPartitions(db: String, table: String) *** FAILED ***",left_only
+677,sql/hive,,- 2.1: loadPartition *** FAILED ***,left_only
+678,sql/hive,,- 2.1: loadDynamicPartitions *** FAILED ***,left_only
+679,sql/hive,,- 2.1: renamePartitions *** FAILED ***,left_only
+680,sql/hive,,- 2.1: alterPartitions *** FAILED ***,left_only
+681,sql/hive,,- 2.1: dropPartitions *** FAILED ***,left_only
+682,sql/hive,,- 2.1: createFunction *** FAILED ***,left_only
+683,sql/hive,,- 2.1: functionExists *** FAILED ***,left_only
+684,sql/hive,,- 2.1: renameFunction *** FAILED ***,left_only
+685,sql/hive,,- 2.1: alterFunction *** FAILED ***,left_only
+686,sql/hive,,- 2.1: getFunction *** FAILED ***,left_only
+687,sql/hive,,- 2.1: getFunctionOption *** FAILED ***,left_only
+688,sql/hive,,- 2.1: listFunctions *** FAILED ***,left_only
+689,sql/hive,,- 2.1: dropFunction *** FAILED ***,left_only
+690,sql/hive,,- 2.1: sql set command *** FAILED ***,left_only
+691,sql/hive,,- 2.1: sql create index and reset *** FAILED ***,left_only
+692,sql/hive,,- 2.1: version *** FAILED ***,left_only
+693,sql/hive,,- 2.1: getConf *** FAILED ***,left_only
+694,sql/hive,,- 2.1: setOut *** FAILED ***,left_only
+695,sql/hive,,- 2.1: setInfo *** FAILED ***,left_only
+696,sql/hive,,- 2.1: setError *** FAILED ***,left_only
+697,sql/hive,,- 2.1: newSession *** FAILED ***,left_only
+698,sql/hive,,- 2.1: withHiveState and addJar *** FAILED ***,left_only
+699,sql/hive,,- 2.1: reset *** FAILED ***,left_only
+700,sql/hive,,- 2.1: CREATE TABLE AS SELECT *** FAILED ***,left_only
+701,sql/hive,,- 2.1: Delete the temporary staging directory and files after each insert *** FAILED ***,left_only
+702,sql/hive,,- 2.1: SPARK-13709: reading partitioned Avro table with nested schema *** FAILED ***,left_only
+703,sql/hive,,- 2.1: CTAS for managed data source tables *** FAILED ***,left_only
+704,sql/hive,,- 2.1: Decimal support of Avro Hive serde *** FAILED ***,left_only
+705,sql/hive,,- 2.1: read avro file containing decimal *** FAILED ***,left_only
+706,sql/hive,,- 2.1: SPARK-17920: Insert into/overwrite avro table *** FAILED ***,left_only
+707,sql/hive,,- SPARK-18355 Read data from a hive table with a new column - orc *** FAILED ***,left_only
+708,sql/hive,,- SPARK-18355 Read data from a hive table with a new column - parquet *** FAILED ***,left_only
+709,sql/hive,,- create Hive-serde table and view with unicode columns and comment *** FAILED ***,left_only
+710,sql/hive,,- basic DDL using locale tr - caseSensitive true *** FAILED ***,left_only
+711,sql/hive,,- SPARK-21617: ALTER TABLE for non-compatible DataSource tables *** FAILED ***,left_only
+712,sql/hive,,- SPARK-21617: ALTER TABLE for Hive-compatible DataSource tables *** FAILED ***,left_only
+713,sql/hive,,- SPARK-21617: ALTER TABLE for Hive tables *** FAILED ***,left_only
+714,sql/hive,,- SPARK-21617: ALTER TABLE with incompatible schema on Hive-compatible table *** FAILED ***,left_only
+715,sql/hive,,- shaded Protobuf *** FAILED ***,left_only
+716,sql/hive,,- Forbidden Dependencies *** FAILED ***,left_only
+717,sql/hive,,- Read/Write Hive PARQUET serde table *** FAILED ***,left_only
+718,sql/hive,,- Read/Write Hive ORC serde table *** FAILED ***,left_only
+719,sql/hive,,- SPARK-19459/SPARK-18220: read char/varchar column written by Hive *** FAILED ***,left_only
+720,sql/hive,,- SPARK-8020: set sql conf in spark conf *** FAILED ***,left_only
+721,sql/hive,,- SPARK-9757 Persist Parquet relation with decimal column *** FAILED ***,left_only
+722,sql/hive,,- SPARK-16901: set javax.jdo.option.ConnectionURL *** FAILED ***,left_only
+724,resource-managers/yarn,Module aborted,,left_only

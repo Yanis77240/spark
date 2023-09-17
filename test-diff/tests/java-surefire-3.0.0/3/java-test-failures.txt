@@ -1,0 +1,13 @@
+[ERROR] org.apache.hive.spark.client.rpc.TestRpc.testServerPort  Time elapsed: 0.016 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.TestTxnCommands2WithSplitUpdateAndVectorization.testNonAcidToAcidConversion02  Time elapsed: 7.535 s  <<< ERROR!
+[ERROR] org.apache.hadoop.hive.ql.TestTxnCommands2.testNonAcidToAcidConversion02  Time elapsed: 7.58 s  <<< ERROR!
+[ERROR] org.apache.hadoop.hive.ql.TestTxnCommands2WithSplitUpdate.testNonAcidToAcidConversion02  Time elapsed: 7.475 s  <<< ERROR!
+[ERROR] org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorStringExpressions.testStringLikeMultiByte  Time elapsed: 0.01 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapRedPlan1  Time elapsed: 0.405 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapRedPlan2  Time elapsed: 0.286 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapRedPlan3  Time elapsed: 0.257 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapRedPlan4  Time elapsed: 0.254 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapRedPlan5  Time elapsed: 0.261 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapRedPlan6  Time elapsed: 0.254 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapPlan1  Time elapsed: 0.235 s  <<< FAILURE!
+[ERROR] org.apache.hadoop.hive.ql.exec.TestExecDriver.testMapPlan2  Time elapsed: 0.226 s  <<< FAILURE!

@@ -1,0 +1,4 @@
+testSecureShuffle[test[sslInCluster:true, resultWithTezSSL:0, resultWithoutTezSSL:1, asyncHttp:false]](org.apache.tez.test.TestSecureShuffle)  Time elapsed: 63.197 sec  <<< FAILURE!
+testSecureShuffle[test[sslInCluster:true, resultWithTezSSL:0, resultWithoutTezSSL:1, asyncHttp:true]](org.apache.tez.test.TestSecureShuffle)  Time elapsed: 54.197 sec  <<< FAILURE!
+testSecureShuffle[test[sslInCluster:false, resultWithTezSSL:1, resultWithoutTezSSL:0, asyncHttp:true]](org.apache.tez.test.TestSecureShuffle)  Time elapsed: 107.372 sec  <<< FAILURE!
+testSecureShuffle[test[sslInCluster:false, resultWithTezSSL:1, resultWithoutTezSSL:0, asyncHttp:false]](org.apache.tez.test.TestSecureShuffle)  Time elapsed: 88.801 sec  <<< FAILURE!

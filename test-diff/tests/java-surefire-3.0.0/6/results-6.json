@@ -1,0 +1,5673 @@
+{
+  "org.apache.hadoop.hive.io.TestHdfsUtils": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.TestColumnProjectionUtils": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazy.TestLazySimpleSerDe": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazy.fast.TestStringToDouble": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazy.TestLazyPrimitive": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazy.TestLazyArrayMapStruct": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazy.TestLazySimpleFast": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestAvroSerializer": {
+    "test_stats": {
+      "succeeded": 28,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestSchemaReEncoder": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestAvroLazyObjectInspector": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestAvroDeserializer": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestInstanceCache": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestAvroSerde": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestTypeInfoToSchema": {
+    "test_stats": {
+      "succeeded": 23,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestAvroObjectInspectorGenerator": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestAvroSerdeUtils": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestGenericAvroRecordWritable": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestThatEvolvedSchemasActAsWeWant": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.avro.TestSchemaToTypeInfo": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.io.TestHiveCharWritable": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.io.TestHiveIntervalYearMonthWritable": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.io.TestHiveIntervalDayTimeWritable": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.io.TestDateWritable": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.io.TestHiveVarcharWritable": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.io.TestTimestampWritable": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestObjectInspectorUtils": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestStandardObjectInspectors": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestSimpleMapEqualComparer": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestUnionStructObjectInspector": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestFullMapEqualComparer": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestThriftObjectInspectors": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestObjectInspectorConverters": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.primitive.TestPrimitiveObjectInspectorUtils": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.primitive.TestPrimitiveObjectInspectorFactory": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestProtocolBuffersObjectInspectors": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestReflectionObjectInspectors": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.objectinspector.TestCrossMapEqualComparer": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.thrift.TestColumnBuffer": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.TestTCTLSeparatedProtocol": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazybinary.TestLazyBinarySerDe": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.lazybinary.TestLazyBinaryFast": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableFast": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.columnar.TestLazyBinaryColumnarSerDe": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.columnar.TestBytesRefArrayWritable": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.typeinfo.TestTypeInfoUtils": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.TestOpenCSVSerde": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.serde2.TestStatsSerde": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestHiveAlterHandler": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestDeadline": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestRawStoreProxy": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestHiveMetastoreCli": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestMetaStoreUtils": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.txn.TestValidCompactorTxnList": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.txn.TestTxnHandlerNegative": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.txn.TestTxnUtils": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestHiveMetaStorePartitionSpecs": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestAggregateStatsCache": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestLockRequestBuilder": {
+    "test_stats": {
+      "succeeded": 33,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseAggregateStatsExtrapolation": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseAggregateStatsNDVUniformDist": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestSharedStorageDescriptor": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseStore": {
+    "test_stats": {
+      "succeeded": 40,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseFilterPlanUtil": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseAggregateStatsCacheWithBitVector": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseAggregateStatsCache": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseStoreBitVector": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.hbase.TestHBaseStoreCached": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestObjectStore": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestHiveMetaStoreGetMetaConf": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.messaging.json.JSONMessageDeserializerTest": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestHiveMetaStoreTimeout": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestRetriesInRetryingHMSHandler": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestMetaStoreSchemaInfo": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.tez.TestConverters": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.TestRow": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.tez.TestLlapDaemonProtocolClientProxy": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.registry.impl.TestSlotZnode": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskSchedulerService": {
+    "test_stats": {
+      "succeeded": 24,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.tezplugins.TestLlapTaskCommunicator": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 1,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testFinishableStateUpdateFailure"
+    ]
+  },
+  "org.apache.hive.spark.client.TestSparkClient": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.spark.client.TestJobHandle": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.spark.client.rpc.TestRpc": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 1,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testServerPort"
+    ]
+  },
+  "org.apache.hive.spark.client.rpc.TestKryoMessageCodec": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.spark.client.TestMetricsCollection": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.TestLlapOutputFormat": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.txn.TestCompactionTxnHandler": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.txn.TestTxnHandlerNoConnectionPool": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.txn.TestTxnHandler": {
+    "test_stats": {
+      "succeeded": 50,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.metastore.TestMetastoreExpr": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.metadata.TestHive": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.metadata.TestHiveCopyFiles": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.metadata.TestHiveRemote": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.metadata.TestTableIterable": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.metadata.TestHiveMetaStoreChecker": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.util.TestDateTimeMath": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.TestTxnCommands": {
+    "test_stats": {
+      "succeeded": 29,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.TestTxnCommands2WithSplitUpdateAndVectorization": {
+    "test_stats": {
+      "succeeded": 34,
+      "failed": 1,
+      "skipped": 8,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testNonAcidToAcidConversion02"
+    ]
+  },
+  "org.apache.hadoop.hive.ql.plan.TestConditionalResolverCommonJoin": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestTezWork": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestReadEntityDirect": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestCreateMacroDesc": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestMapWork": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestTezWorkConcurrency": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestDropMacroDesc": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.plan.TestViewEntity": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.TestTxnCommands2": {
+    "test_stats": {
+      "succeeded": 34,
+      "failed": 1,
+      "skipped": 4,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testNonAcidToAcidConversion02"
+    ]
+  },
+  "org.apache.hadoop.hive.ql.parse.TestReplicationSemanticAnalyzer": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestEximUtil": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestParseDriver": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestUnpermittedCharsInColumnNameCreateTableNegative": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestSplitSample": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestQBSubQuery": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestHiveDecimalParse": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestSemanticAnalyzer": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.positive.TestTransactionStatement": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestSQL11ReservedKeyWordsNegative": {
+    "test_stats": {
+      "succeeded": 82,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestUpdateDeleteSemanticAnalyzer": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestIUD": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestGenTezWork": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestQBJoinTreeApplyPredicate": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestParseDriverIntervals": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestColumnAccess": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestQBCompact": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.authorization.TestSessionUserName": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.authorization.TestHiveAuthorizationTaskFactory": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.authorization.plugin.sqlstd.TestOperation2Privilege": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.authorization.TestPrivilegesV1": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.authorization.TestPrivilegesV2": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestMacroSemanticAnalyzer": {
+    "test_stats": {
+      "succeeded": 17,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestMergeStatement": {
+    "test_stats": {
+      "succeeded": 17,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.parse.TestSemanticAnalyzerFactory": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestRCFile": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestAcidUtils": {
+    "test_stats": {
+      "succeeded": 23,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.sarg.TestSearchArgumentImpl": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.sarg.TestConvertAstToSearchArg": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestRecordIdentifier": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.avro.TestAvroGenericRecordReader": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestHiveInputOutputBuffer": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestSymlinkTextInputFormat": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestParquetSerDe": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestHiveSchemaConverter": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestMapStructures": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.read.TestDataWritableReadSupport": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.read.TestParquetFilterPredicate": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.TestAbstractParquetMapInspector": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.TestDeepParquetHiveMapInspector": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.TestParquetTimestampUtils": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.TestStandardParquetHiveMapInspector": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.primitive.TestParquetShortInspector": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.primitive.TestParquetByteInspector": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.serde.TestParquetHiveArrayInspector": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestMapredParquetInputFormat": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestDataWritableWriter": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestVectorizedColumnReader": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestParquetRecordReaderWrapper": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestParquetRowGroupFilter": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestArrayCompatibility": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestVectorizedDictionaryEncodingColumnReader": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.parquet.TestMapredParquetOutputFormat": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestCombineHiveInputFormat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestHiveFileFormatUtils": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcFileStripeMergeRecordReader": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestNewInputOutputFormat": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcStruct": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcFile": {
+    "test_stats": {
+      "succeeded": 44,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcSerDeStats": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcRawRecordMerger": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcRecordUpdater": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestOrcSplitElimination": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestVectorizedOrcAcidRowBatchReader": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestInputOutputFormat": {
+    "test_stats": {
+      "succeeded": 40,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.orc.TestVectorizedORCReader": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestPerformTestRCFileAndSeqFile": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestIOContextMap": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestStorageFormatDescriptor": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestHiveBinarySearchRecordReader": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestAcidInputFormat": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.TestGenMapRedUtilsUsePartitionColumnsNegative": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.TestColumnPrunerProcCtx": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.listbucketingpruner.TestDynamicMultiDimeCollection": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.listbucketingpruner.TestListBucketingPrunner": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.TestGenMapRedUtilsUsePartitionColumnsPositive": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.TestNestedColumnFieldPruningUtils": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.TestGenMapRedUtilsCreateConditionalTask": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.ppr.TestPositivePartitionPrunerCompactExpr": {
+    "test_stats": {
+      "succeeded": 35,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.ppr.TestNegativePartitionPrunerCompactExpr": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.physical.TestVectorizer": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.calcite.TestCBOMaxNumToCNF": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.optimizer.calcite.TestCBORuleFiredOnlyOnce": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.index.TestSplitFilter": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.index.TestHiveInputSplitComparator": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.index.TestIndexType": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.txn.compactor.TestCleaner": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.txn.compactor.TestWorker2": {
+    "test_stats": {
+      "succeeded": 24,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.txn.compactor.TestInitiator": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.txn.compactor.TestWorker": {
+    "test_stats": {
+      "succeeded": 24,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.txn.compactor.TestCleaner2": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.log.TestLog4j2Appenders": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.processors.TestCommandProcessorFactory": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.processors.TestSetProcessor": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.processors.TestCompileProcessor": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lockmgr.zookeeper.TestZookeeperLockManager": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lockmgr.TestHiveLockObject": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lockmgr.TestDbTxnManager": {
+    "test_stats": {
+      "succeeded": 19,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lockmgr.TestDbTxnManager2": {
+    "test_stats": {
+      "succeeded": 36,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lockmgr.TestEmbeddedLockManager": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lockmgr.TestDummyTxnManager": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.lib.TestRuleRegExp": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.security.authorization.plugin.TestHiveOperationType": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.security.authorization.plugin.sqlstd.TestSQLStdHiveAccessControllerHS2": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.security.authorization.plugin.sqlstd.TestSQLStdHiveAccessControllerCLI": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.hooks.TestQueryHooks": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.hooks.TestMetricsQueryLifeTimeHook": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.hooks.TestHooks": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.session.TestAddResource": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.session.TestSessionState": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.TestErrorMsg": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.TestTxnCommands2WithSplitUpdate": {
+    "test_stats": {
+      "succeeded": 34,
+      "failed": 1,
+      "skipped": 8,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testNonAcidToAcidConversion02"
+    ]
+  },
+  "org.apache.hadoop.hive.ql.udaf.TestStreamingSum": {
+    "test_stats": {
+      "succeeded": 21,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udaf.TestStreamingMin": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udaf.TestStreamingAvg": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udaf.TestStreamingMax": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.tool.TestLineageInfo": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestHiveCredentialProviders": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestExpressionEvaluator": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.TestCustomPartitionVertex": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.TestTezSessionPool": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.TestDynamicPartitionPruner": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.InputSplitComparatorTest": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.monitoring.TestTezProgressMonitor": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.TestTezTask": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.tez.TestHostAffinitySplitLocationProvider": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestOperators": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestPartitionKeySampler": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestFunctionRegistry": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestFileSinkOperator": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.errors.TestTaskLogProcessor": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.mapjoin.TestMapJoinMemoryExhaustionHandler": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.mr.TestMapredLocalTask": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.mr.TestMapRedTask": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestMapJoinTableContainer": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestHashPartition": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestBytesBytesMultiHashMap": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestMapJoinKey": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestMapJoinRowContainer": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestPTFRowContainer": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.persistence.TestMapJoinEqualityTableContainer": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorSerDeRow": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorRowObject": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorSelectOperator": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastBytesHashMap": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastLongHashMap": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinRowBytesContainer": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastBytesHashSet": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastRowHashMap": {
+    "test_stats": {
+      "succeeded": 24,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastLongHashMultiSet": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastBytesHashMultiSet": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.fast.TestVectorMapJoinFastLongHashSet": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.mapjoin.TestDebugDisplay": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorizedRowBatch": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorizationContext": {
+    "test_stats": {
+      "succeeded": 31,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorLimitOperator": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorFilterOperator": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestVectorGroupByOperator": {
+    "test_stats": {
+      "succeeded": 118,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.TestTimestampWritableAndColumnVector": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorStringExpressions": {
+    "test_stats": {
+      "succeeded": 45,
+      "failed": 1,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testStringLikeMultiByte"
+    ]
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorArithmeticExpressions": {
+    "test_stats": {
+      "succeeded": 20,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorGenericDateExpressions": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorTimestampExpressions": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorMathFunctions": {
+    "test_stats": {
+      "succeeded": 25,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorConditionalExpressions": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorFilterExpressions": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.gen.TestColumnColumnOperationVectorExpressionEvaluation": {
+    "test_stats": {
+      "succeeded": 234,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.gen.TestColumnScalarOperationVectorExpressionEvaluation": {
+    "test_stats": {
+      "succeeded": 390,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.gen.TestColumnScalarFilterVectorExpressionEvaluation": {
+    "test_stats": {
+      "succeeded": 192,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.gen.TestColumnColumnFilterVectorExpressionEvaluation": {
+    "test_stats": {
+      "succeeded": 120,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorExpressionWriters": {
+    "test_stats": {
+      "succeeded": 25,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestCuckooSet": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorDateExpressions": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorLogicalExpressions": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestDecimalUtil": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestConstantVectorExpression": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestUnaryMinus": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorTypeCasts": {
+    "test_stats": {
+      "succeeded": 19,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorScalarColArithmetic": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.vector.udf.TestVectorUDFAdaptor": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.spark.TestHiveKVResultCache": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.spark.TestSparkTask": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestPlan": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestUtilities": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestExplainTask": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestExecDriver": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 8,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": [
+      "testMapRedPlan1",
+      "testMapRedPlan2",
+      "testMapRedPlan3",
+      "testMapRedPlan4",
+      "testMapRedPlan5",
+      "testMapRedPlan6",
+      "testMapPlan1",
+      "testTestTest"
+    ]
+  },
+  "org.apache.hadoop.hive.ql.exec.TestAddToClassPathAction": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestOperatorNames": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.exec.TestContext": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFUnhex": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.xml.TestUDFXPathUtil": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.xml.TestReusableStringReader": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFFloor": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFTrim": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFExtractUnionObjectInspectorConverter": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFDateSub": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFAddMonths": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFInternalInterval": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFCbrt": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFDecode": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFSha2": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFDateAdd": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFInitCap": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDAFBinarySetFunctions": {
+    "test_stats": {
+      "succeeded": 96,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPMultiply": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFCeil": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPNegative": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFStringToMap": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFNextDay": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFQuarter": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFLevenshtein": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFChr": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFConcat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFTrunc": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFSortArray": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFRpad": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFPrintf": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPMod": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFLTrim": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFSoundex": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFSubstringIndex": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFReplace": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFRTrim": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFDate": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFDateFormat": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFLeast": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFAesDecrypt": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFPower": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFMacro": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPPlus": {
+    "test_stats": {
+      "succeeded": 20,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFRegexp": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFBRound": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFMapValues": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFPosMod": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFNullif": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFEncode": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFAesEncrypt": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFGreatest": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFExtractUnion": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFRound": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFToUnixTimestamp": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPMinus": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFFromUtcTimestamp": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFAbs": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFBridge": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDAFCorrelation": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFSortArrayByField": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFFactorial": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFMonthsBetween": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFExtractUnionValueConverter": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFLpad": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFLastDay": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFDateDiff": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPPositive": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFOPDivide": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.generic.TestGenericUDFUtils": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFCrc32": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFSha1": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestToInteger": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFBase64": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFMd5": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFVersion": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFUnbase64": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFHex": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFDateFormatGranularity": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestBlockedUdf": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFMath": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFSign": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFUUID": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.udf.TestUDFJson": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.services.impl.TestLlapWebServices": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.TestLlapDaemonProtocolServerImpl": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.TestLlapTokenChecker": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.TestTaskExecutorService": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.TestQueryIdentifier": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.TestEvictingPriorityBlockingQueue": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.comparator.TestFirstInFirstOutComparator": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.daemon.impl.comparator.TestShortestJobFirstComparator": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.security.TestLlapSignerImpl": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.cache.TestLowLevelLrfuCachePolicy": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.cache.TestLowLevelCacheImpl": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.cache.TestOrcMetadataCache": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.cache.TestBuddyAllocator": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.llap.cache.TestIncrementalObjectSizeEstimator": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.TestHiveSQLException": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.TestRetryingThriftCLIServiceClient": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.session.TestSessionCleanup": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.session.TestPluggableHiveSessionImpl": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.session.TestSessionManagerMetrics": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.session.TestSessionGlobalInitFile": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.session.TestSessionHooks": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.operation.TestSQLOperationMetrics": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.cli.CLIServiceRestoreTest": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.TestCookieSigner": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.TestPlainSaslHelper": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestLdapUtils": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestUserFilter": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestLdapSearch": {
+    "test_stats": {
+      "succeeded": 17,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestCustomQueryFilter": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestQuery": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestQueryFactory": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestGroupFilter": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestChainFilter": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestSearchResultHandler": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.ldap.TestUserSearchFilter": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.TestLdapAuthenticationProviderImpl": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.auth.TestLdapAtnProviderWithMiniDS": {
+    "test_stats": {
+      "succeeded": 31,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.server.TestServerOptionsProcessor": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.service.server.TestHS2HttpServer": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.TestAccumuloHiveRow": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.TestAccumuloStorageHandler": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.TestLazyAccumuloMap": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.columns.TestHiveAccumuloColumnMapping": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.columns.TestColumnEncoding": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.columns.TestColumnMappingFactory": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.columns.TestColumnMapper": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.columns.TestHiveRowIdColumnMapping": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.serde.TestAccumuloSerDe": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.serde.TestAccumuloRowSerializer": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.serde.TestDefaultAccumuloRowIdFactory": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.serde.TestAccumuloSerDeParameters": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.TestPrimitiveComparisonFilter": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.compare.TestStringCompare": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.compare.TestLongComparison": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.compare.TestIntCompare": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.compare.TestDoubleCompare": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.predicate.TestAccumuloPredicateHandler": {
+    "test_stats": {
+      "succeeded": 24,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.mr.TestHiveAccumuloTableInputFormat": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.mr.TestHiveAccumuloTableOutputFormat": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.mr.TestHiveAccumuloTypes": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.TestAccumuloConnectionParameters": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.TestLazyAccumuloRow": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.accumulo.TestHiveAccumuloHelper": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.jdbc.HiveStatementTest": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.jdbc.TestJdbcDriver": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.jdbc.TestHivePreparedStatement": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestClientCommandHookFactory": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestBeeLineHistory": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestBufferedRows": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestBeeLineExceptionHandling": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestTableOutputFormat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestBeeLineOpts": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestIncrementalRowsWithNormalization": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestShutdownHook": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.cli.TestHiveCli": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestClassNameCompleter": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestCommands": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestHiveSchemaTool": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.TestBeelineArgParsing": {
+    "test_stats": {
+      "succeeded": 36,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.beeline.hs2connection.TestUserHS2ConnectionFileParser": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.cli.TestCliDriverMethods": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.cli.TestOptionsProcessor": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.cli.TestCliSessionState": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.cli.TestRCFileCat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.contrib.mr.TestGenericMR": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.contrib.serde2.TestRegexSerDe": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.druid.io.TestHiveDruidSplit": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.druid.TestDruidSerDe": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.druid.TestDruidStorageHandler": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.druid.TestHiveDruidQueryBasedInputFormat": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.ql.io.TestDruidRecordWriter": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.hbase.TestHBaseSerDe": {
+    "test_stats": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.hbase.TestLazyHBaseObject": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.hbase.LazyHBaseCellMapTest": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hadoop.hive.hbase.TestPutResultWritable": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.config.JdbcStorageConfigManagerTest": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.storage.jdbc.dao.GenericJdbcDatabaseAccessorTest": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.storage.jdbc.TestSuite": {
+    "test_stats": {
+      "succeeded": 24,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.storage.jdbc.QueryConditionBuilderTest": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.storage.jdbc.JdbcInputFormatTest": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.TestDefaultHCatRecord": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.TestLazyHCatRecord": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.TestReaderWriter": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.TestJsonSerDe": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.schema.TestHCatSchemaUtils": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.schema.TestHCatSchema": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.data.TestHCatRecordSerDe": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.cli.TestUseDatabase": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.cli.SemanticAnalysis.TestHCatAuthUtil": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.cli.TestPermsGrp": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.cli.TestSemanticAnalysis": {
+    "test_stats": {
+      "succeeded": 23,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.rcfile.TestRCFileMapReduceInputFormat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.common.TestHiveClientCache": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 1,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.common.TestHCatUtil": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatNonPartitioned": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatMutablePartitioned": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatInputFormatMethods": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatExternalPartitioned": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatOutputFormat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatMutableDynamicPartitioned": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 4,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestPassProperties": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatMutableNonPartitioned": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestInputJobInfo": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatInputFormat": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatDynamicPartitioned": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 4,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatPartitionPublish": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatExternalDynamicPartitioned": {
+    "test_stats": {
+      "succeeded": 15,
+      "failed": 0,
+      "skipped": 6,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestMultiOutputFormat": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatExternalNonPartitioned": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatPartitioned": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.mapreduce.TestHCatMultiOutputFormat": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestHCatLoaderEncryption": {
+    "test_stats": {
+      "succeeded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestRCFileHCatStorer": {
+    "test_stats": {
+      "succeeded": 27,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestParquetHCatStorer": {
+    "test_stats": {
+      "succeeded": 27,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestPigHCatUtil": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestSequenceFileHCatStorer": {
+    "test_stats": {
+      "succeeded": 27,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestParquetHCatLoader": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestHCatLoaderStorer": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestHCatStorer": {
+    "test_stats": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 162,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestHCatLoaderComplexSchema": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 2,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestUtil": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestTextFileHCatLoader": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestHCatStorerWrapper": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestE2EScenarios": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestHCatStorerMulti": {
+    "test_stats": {
+      "succeeded": 18,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestOrcHCatLoader": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestTextFileHCatStorer": {
+    "test_stats": {
+      "succeeded": 27,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestOrcHCatStorer": {
+    "test_stats": {
+      "succeeded": 27,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestRCFileHCatLoader": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestAvroHCatLoader": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestAvroHCatStorer": {
+    "test_stats": {
+      "succeeded": 22,
+      "failed": 0,
+      "skipped": 5,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.pig.TestSequenceFileHCatLoader": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.listener.TestNotificationListener": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.listener.TestMsgBusConnection": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.api.repl.TestReplicationTask": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.api.repl.commands.TestNoopCommand": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.api.repl.commands.TestCommands": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.api.repl.exim.TestEximReplicationTasks": {
+    "test_stats": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.api.TestHCatClient": {
+    "test_stats": {
+      "succeeded": 19,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.TestWebHCatE2e": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 7,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.TestServer": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.TestConcurrentJobRequestsThreads": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.TestDesc": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.TestConcurrentJobRequestsThreadsAndTimeout": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.TestConcurrentJobRequests": {
+    "test_stats": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.tool.TestJobIDParser": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.tool.TestTempletonUtils": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.templeton.tool.TestTrivialExecService": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.client.TestTransaction": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.client.lock.TestHeartbeatTimerTask": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.client.lock.TestLock": {
+    "test_stats": {
+      "succeeded": 23,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.client.TestMutatorClient": {
+    "test_stats": {
+      "succeeded": 7,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.client.TestAcidTableSerializer": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.TestMutations": {
+    "test_stats": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestWarehousePartitionHelper": {
+    "test_stats": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestGroupingValidator": {
+    "test_stats": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestMetaStorePartitionHelper": {
+    "test_stats": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestSequenceValidator": {
+    "test_stats": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestBucketIdResolverImpl": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestMutatorImpl": {
+    "test_stats": {
+      "succeeded": 6,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestMutatorCoordinator": {
+    "test_stats": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.mutate.worker.TestRecordInspectorImpl": {
+    "test_stats": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.TestStreaming": {
+    "test_stats": {
+      "succeeded": 25,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hcatalog.streaming.TestDelimitedInputWriter": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hplsql.TestHplsqlUdf": {
+    "test_stats": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hplsql.TestHplsqlLocal": {
+    "test_stats": {
+      "succeeded": 70,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  },
+  "org.apache.hive.hplsql.TestHplsqlOffline": {
+    "test_stats": {
+      "succeeded": 14,
+      "failed": 0,
+      "skipped": 0,
+      "pending": null,
+      "aborted": false
+    },
+    "failed_list": []
+  }
+}
